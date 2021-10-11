@@ -1,0 +1,71 @@
+Continent,Country,Total Titles Available on Netflix,Total Films,Total TV Shows,Avg. IMDb Audience Ranking,Titles with IMDB Score >8,Avg. Metacritic Critics Score,Number of Academy Award-winners,Emmy Award-winners
+Europe,Albania,2242,1519,723,7.1,27%,64.1,55,31
+South America,Argentina,3034,2394,640,7.04,25%,63.5,69,29
+Australasia,Australia,5349,3615,1734,7.02,24%,62.2,54,23
+Europe,Austria,3878,2690,1188,7.03,24%,63.1,63,32
+Europe,Azerbaijan,2117,1390,727,7.13,28%,65.3,48,31
+North America,Bahamas,2234,1535,699,7.09,26%,64,54,28
+Europe,Belgium,4121,2777,1344,7.05,26%,62.4,62,30
+South America,Bolivia,3607,2252,1355,7.05,25%,64,58,29
+South America,Brazil,4208,2893,1315,7.07,25%,63.7,55,30
+Europe,Bulgaria,2250,1520,730,7.11,27%,64.1,54,31
+North America,Canada,5730,4043,1687,6.95,23%,61.4,66,30
+South America,Chile,4281,2930,1351,7.05,25%,64,58,29
+South America,Colombia,4282,2932,1350,7.05,25%,64,58,29
+North America,Costa Rica,4115,3091,1024,7.05,25%,64,58,29
+Europe,Croatia,4652,3153,1499,7.08,26%,63.7,66,30
+Europe,Czechia,5064,3413,1651,7.05,25%,63.4,63,31
+Europe,Denmark,3525,2462,1063,7.03,24%,63.6,67,33
+South America,Ecuador,3470,2836,934,7.05,25%,64,58,29
+Africa,Egypt,2494,1605,889,7.06,26%,64.3,69,31
+Europe,Estonia,4339,3012,1327,7.12,28%,64.8,57,31
+Europe,Finland,3349,2357,992,7.03,24%,63.6,69,33
+Europe,France,3978,2639,1339,7.07,26%,63.6,54,32
+Europe,Georgia,2116,1388,728,7.13,28%,65.2,48,31
+Europe,Germany,3995,2763,1232,7.01,24%,62.9,62,32
+Europe,Greece,4438,3022,1416,7.1,26%,64.3,63,29
+North America,Guatemala,4117,3093,1024,7.05,25%,64,58,29
+Asia,Hong Kong,3861,2534,1327,7.06,25%,63.2,61,34
+Europe,Hungary,5062,3409,1653,7.08,26%,63.2,65,31
+Europe,Iceland,4781,3160,1621,7.1,27%,64.2,45,29
+Asia,India,5591,3781,1810,7.12,26%,63.8,65,30
+Asia,Indonesia,4684,3248,1436,7.12,27%,63.3,51,35
+Europe,Ireland,5246,3708,1538,6.96,23%,61.6,56,30
+Europe,Israel,4393,2948,1445,7.1,27%,64.1,56,32
+Europe,Italy,3526,2452,1074,7.05,26%,63.7,73,29
+Asia,Japan,5065,3518,1547,6.98,22%,63.1,78,33
+Africa,Kenya,4612,3134,1478,7.11,27%,63.1,55,30
+Europe,Latvia,4577,3083,1494,7.12,28%,64.8,57,31
+Europe,Lithuania,4841,3192,1649,7.12,28%,64.5,58,31
+Europe,Luxembourg,4534,3126,1408,7.09,26%,62.8,62,34
+Asia,Malaysia,4898,3387,1511,7.1,26%,63,54,35
+North America,Mexico,4316,2958,1358,7.05,25%,63.9,59,30
+Europe,Moldova,2145,1414,731,7.12,28%,65,36,31
+Europe,Netherlands,3655,2550,1105,7.03,26%,62.6,47,30
+Australasia,New Zealand,4635,3206,1429,7.03,25%,62.7,52,25
+Europe,Norway,3203,2437,766,7.03,24%,63.6,67,33
+North America,Panama,2234,1535,699,7.09,26%,64,54,28
+South America,Peru,4118,3094,1024,7.05,25%,64,58,29
+Asia,Philippines,4913,3371,1542,7.11,26%,63.1,54,35
+Europe,Poland,3398,2317,1081,6.98,24%,64,54,29
+Europe,Portugal,3142,2063,1079,7.13,28%,64.9,54,30
+Europe,Romania,4686,3222,1464,7.08,25%,63,66,31
+Europe,Russia,4898,3253,1645,7.13,28%,64.9,42,32
+Europe,Serbia,2339,1612,727,7.09,26%,63.7,66,31
+Asia,Singapore,4768,3150,1618,7.11,27%,63.3,51,35
+Europe,Slovakia,5077,3419,1658,7.04,25%,63.4,63,31
+Europe,Slovenia,3798,2618,1180,7.1,26%,63.7,66,31
+Africa,South Africa,4987,3278,1709,7.09,27%,62.7,55,31
+Asia,South Korea,4065,2838,1227,7,21%,64.5,109,35
+Europe,Spain,3522,2359,1163,7.12,27%,64.3,53,31
+Europe,Sweden,3579,2481,1098,7.03,24%,63.4,69,33
+Europe,Switzerland,4593,3109,1484,7.01,24%,61.6,85,34
+Asia,Taiwan,3611,2367,1244,7.06,25%,63.3,57,34
+Asia,Thailand,4864,3273,1591,7.07,25%,62.9,62,35
+Asia,Turkey,2812,1878,634,7.03,26%,62.6,47,30
+Asia,UAE,2906,2020,886,7.06,26%,64.3,70,30
+Europe,Ukraine,4640,3147,1493,7.13,28%,65.3,48,31
+Europe,United Kingdom,5673,3831,1842,6.97,24%,61.7,59,31
+North America,United States of America,5879,4035,1844,6.95,23%,62.9,60,32
+South America,Uruguay,4215,2972,1243,7.05,25%,64,58,29
+South America,Venezuela,4180,3144,1036,7.05,25%,64,57,29
