@@ -1,551 +1,501 @@
-Country ,variable,value
-Argentina ,Continent,South America
-Australia,Continent,Oceania
-Austria,Continent,Europe
-Belgium,Continent,Europe
-Brazil,Continent,South America
-Bulgaria,Continent,Europe
-Canada,Continent,North America
-Chile,Continent,South America
-Colombia,Continent,South America
-Costa Rica,Continent,North America
-Croatia,Continent,Europe
-Cyprus,Continent,Europe
-Czech Republic,Continent,Europe
-Denmark,Continent,Europe
-Estonia,Continent,Europe
-Finland ,Continent,Europe
-France,Continent,Europe
-Germany,Continent,Europe
-Greece,Continent,Europe
-Hungary,Continent,Europe
-India,Continent,Asia
-Indonesia,Continent,Asia
-Ireland,Continent,Europe
-Italy,Continent,Europe
-Japan,Continent,Asia
-Latvia,Continent,Europe
-Lithuania,Continent,Europe
-Luxembourg,Continent,Europe
-Malta,Continent,Europe
-Mexico,Continent,North America
-Netherlands,Continent,Europe
-New Zealand,Continent,Oceania
-Norway,Continent,Europe
-Poland,Continent,Europe
-Portugal,Continent,Europe
-Romania,Continent,Europe
-Russia,Continent,Europe
-Singapore,Continent,Asia
-Slovak Republic,Continent,Europe
-Slovenia,Continent,Europe
-South Africa,Continent,Africa
-South Korea,Continent,Asia
-Spain,Continent,Europe
-Sweden,Continent,Europe
-Switzerland,Continent,Europe
-Turkey,Continent,Asia
-UAE,Continent,Asia
-United Kingdom,Continent,Europe
-United States,Continent,North America
-Vietnam,Continent,Asia
-Argentina ,# of Subscribers Q1 2021 ,"4,968,423"
-Australia,# of Subscribers Q1 2021 ,"6,169,026"
-Austria,# of Subscribers Q1 2021 ,"927,420"
-Belgium,# of Subscribers Q1 2021 ,"1,639,040"
-Brazil,# of Subscribers Q1 2021 ,"17,858,800"
-Bulgaria,# of Subscribers Q1 2021 ,"171,600"
-Canada,# of Subscribers Q1 2021 ,"6,709,076"
-Chile,# of Subscribers Q1 2021 ,"927,415"
-Colombia,# of Subscribers Q1 2021 ,"2,677,007"
-Costa Rica,# of Subscribers Q1 2021 ,"291,852"
-Croatia,# of Subscribers Q1 2021 ,"114,950"
-Cyprus,# of Subscribers Q1 2021 ,"49,200"
-Czech Republic,# of Subscribers Q1 2021 ,"455,520"
-Denmark,# of Subscribers Q1 2021 ,"918,240"
-Estonia,# of Subscribers Q1 2021 ,"52,460"
-Finland ,# of Subscribers Q1 2021 ,"735,440"
-France,# of Subscribers Q1 2021 ,"8,344,620"
-Germany,# of Subscribers Q1 2021 ,"10,666,560"
-Greece,# of Subscribers Q1 2021 ,"516,450"
-Hungary,# of Subscribers Q1 2021 ,"338,100"
-India,# of Subscribers Q1 2021 ,"4,845,640"
-Indonesia,# of Subscribers Q1 2021 ,"850,000"
-Ireland,# of Subscribers Q1 2021 ,"528,120"
-Italy,# of Subscribers Q1 2021 ,"3,678,080"
-Japan,# of Subscribers Q1 2021 ,"5,000,000"
-Latvia,# of Subscribers Q1 2021 ,"56,700"
-Lithuania,# of Subscribers Q1 2021 ,"138,030"
-Luxembourg,# of Subscribers Q1 2021 ,"83,520"
-Malta,# of Subscribers Q1 2021 ,"30,090"
-Mexico,# of Subscribers Q1 2021 ,"8,180,311"
-Netherlands,# of Subscribers Q1 2021 ,"2,750,000"
-New Zealand,# of Subscribers Q1 2021 ,"1,263,190"
-Norway,# of Subscribers Q1 2021 ,"1,962,668"
-Poland,# of Subscribers Q1 2021 ,"1,733,450"
-Portugal,# of Subscribers Q1 2021 ,"692,310"
-Romania,# of Subscribers Q1 2021 ,"464,000"
-Russia,# of Subscribers Q1 2021 ,"184,878"
-Singapore,# of Subscribers Q1 2021 ,"446,472"
-Slovak Republic,# of Subscribers Q1 2021 ,"189,420"
-Slovenia,# of Subscribers Q1 2021 ,"92,340"
-South Africa,# of Subscribers Q1 2021 ,"349,000"
-South Korea,# of Subscribers Q1 2021 ,"4,002,920"
-Spain,# of Subscribers Q1 2021 ,"4,762,560"
-Sweden,# of Subscribers Q1 2021 ,"1,713,260"
-Switzerland,# of Subscribers Q1 2021 ,"1,428,631"
-Turkey,# of Subscribers Q1 2021 ,"3,081,300"
-UAE,# of Subscribers Q1 2021 ,"425,993"
-United Kingdom,# of Subscribers Q1 2021 ,"12,716,400"
-United States,# of Subscribers Q1 2021 ,"67,670,924"
-Vietnam,# of Subscribers Q1 2021 ,"316,020"
-Argentina ,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
-Australia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
-Austria,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Belgium,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Brazil,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
-Bulgaria,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Canada,Average Monthly Revenue per Paying Membership - Q1 2021 ($),14.25
-Chile,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
-Colombia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
-Costa Rica,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
-Croatia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Cyprus,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Czech Republic,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Denmark,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Estonia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Finland ,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-France,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Germany,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Greece,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Hungary,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-India,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
-Indonesia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
-Ireland,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Italy,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Japan,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
-Latvia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Lithuania,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Luxembourg,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Malta,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Mexico,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
-Netherlands,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-New Zealand,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
-Norway,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Poland,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Portugal,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Romania,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Russia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Singapore,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
-Slovak Republic,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Slovenia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-South Africa,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-South Korea,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
-Spain,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Sweden,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Switzerland,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-Turkey,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-UAE,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-United Kingdom,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
-United States,Average Monthly Revenue per Paying Membership - Q1 2021 ($),14.25
-Vietnam,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
-Argentina ,Q1 2021 Revenue $ ,"110,149,942"
-Australia,Q1 2021 Revenue $ ,"179,703,740"
-Austria,Q1 2021 Revenue $ ,"32,162,926"
-Belgium,Q1 2021 Revenue $ ,"56,841,907"
-Brazil,Q1 2021 Revenue $ ,"395,929,594"
-Bulgaria,Q1 2021 Revenue $ ,"5,951,088"
-Canada,Q1 2021 Revenue $ ,"286,812,999"
-Chile,Q1 2021 Revenue $ ,"20,560,801"
-Colombia,Q1 2021 Revenue $ ,"59,349,247"
-Costa Rica,Q1 2021 Revenue $ ,"6,470,369"
-Croatia,Q1 2021 Revenue $ ,"3,986,466"
-Cyprus,Q1 2021 Revenue $ ,"1,706,256"
-Czech Republic,Q1 2021 Revenue $ ,"15,797,434"
-Denmark,Q1 2021 Revenue $ ,"31,844,563"
-Estonia,Q1 2021 Revenue $ ,"1,819,313"
-Finland ,Q1 2021 Revenue $ ,"25,505,059"
-France,Q1 2021 Revenue $ ,"289,391,422"
-Germany,Q1 2021 Revenue $ ,"369,916,301"
-Greece,Q1 2021 Revenue $ ,"17,910,486"
-Hungary,Q1 2021 Revenue $ ,"11,725,308"
-India,Q1 2021 Revenue $ ,"141,153,493"
-Indonesia,Q1 2021 Revenue $ ,"24,760,500"
-Ireland,Q1 2021 Revenue $ ,"18,315,202"
-Italy,Q1 2021 Revenue $ ,"127,555,814"
-Japan,Q1 2021 Revenue $ ,"145,650,000"
-Latvia,Q1 2021 Revenue $ ,"1,966,356"
-Lithuania,Q1 2021 Revenue $ ,"4,786,880"
-Luxembourg,Q1 2021 Revenue $ ,"2,896,474"
-Malta,Q1 2021 Revenue $ ,"1,043,521"
-Mexico,Q1 2021 Revenue $ ,"181,357,496"
-Netherlands,Q1 2021 Revenue $ ,"95,370,000"
-New Zealand,Q1 2021 Revenue $ ,"36,796,725"
-Norway,Q1 2021 Revenue $ ,"68,065,341"
-Poland,Q1 2021 Revenue $ ,"60,116,046"
-Portugal,Q1 2021 Revenue $ ,"24,009,311"
-Romania,Q1 2021 Revenue $ ,"16,091,520"
-Russia,Q1 2021 Revenue $ ,"6,411,569"
-Singapore,Q1 2021 Revenue $ ,"13,005,729"
-Slovak Republic,Q1 2021 Revenue $ ,"6,569,086"
-Slovenia,Q1 2021 Revenue $ ,"3,202,351"
-South Africa,Q1 2021 Revenue $ ,"12,103,320"
-South Korea,Q1 2021 Revenue $ ,"116,605,060"
-Spain,Q1 2021 Revenue $ ,"165,165,581"
-Sweden,Q1 2021 Revenue $ ,"59,415,857"
-Switzerland,Q1 2021 Revenue $ ,"49,544,930"
-Turkey,Q1 2021 Revenue $ ,"106,859,484"
-UAE,Q1 2021 Revenue $ ,"14,773,428"
-United Kingdom,Q1 2021 Revenue $ ,"441,004,752"
-United States,Q1 2021 Revenue $ ,"2,892,932,001"
-Vietnam,Q1 2021 Revenue $ ,"9,205,663"
-Argentina ,# of Subscribers Q2 2021,"5,069,282"
-Australia,# of Subscribers Q2 2021,"6,405,917"
-Austria,# of Subscribers Q2 2021,"930,017"
-Belgium,# of Subscribers Q2 2021,"1,643,629"
-Brazil,# of Subscribers Q2 2021,"18,221,334"
-Bulgaria,# of Subscribers Q2 2021,"172,080"
-Canada,# of Subscribers Q2 2021,"6,670,163"
-Chile,# of Subscribers Q2 2021,"946,242"
-Colombia,# of Subscribers Q2 2021,"2,731,350"
-Costa Rica,# of Subscribers Q2 2021,"297,777"
-Croatia,# of Subscribers Q2 2021,"115,272"
-Cyprus,# of Subscribers Q2 2021,"49,338"
-Czech Republic,# of Subscribers Q2 2021,"456,795"
-Denmark,# of Subscribers Q2 2021,"920,811"
-Estonia,# of Subscribers Q2 2021,"52,607"
-Finland ,# of Subscribers Q2 2021,"737,499"
-France,# of Subscribers Q2 2021,"8,367,985"
-Germany,# of Subscribers Q2 2021,"10,696,426"
-Greece,# of Subscribers Q2 2021,"517,896"
-Hungary,# of Subscribers Q2 2021,"339,047"
-India,# of Subscribers Q2 2021,"5,031,713"
-Indonesia,# of Subscribers Q2 2021,"882,640"
-Ireland,# of Subscribers Q2 2021,"529,599"
-Italy,# of Subscribers Q2 2021,"3,688,379"
-Japan,# of Subscribers Q2 2021,"5,192,000"
-Latvia,# of Subscribers Q2 2021,"56,859"
-Lithuania,# of Subscribers Q2 2021,"138,416"
-Luxembourg,# of Subscribers Q2 2021,"83,754"
-Malta,# of Subscribers Q2 2021,"30,174"
-Mexico,# of Subscribers Q2 2021,"8,346,371"
-Netherlands,# of Subscribers Q2 2021,"2,757,700"
-New Zealand,# of Subscribers Q2 2021,"1,311,696"
-Norway,# of Subscribers Q2 2021,"1,968,164"
-Poland,# of Subscribers Q2 2021,"1,738,304"
-Portugal,# of Subscribers Q2 2021,"694,248"
-Romania,# of Subscribers Q2 2021,"465,299"
-Russia,# of Subscribers Q2 2021,"185,396"
-Singapore,# of Subscribers Q2 2021,"463,617"
-Slovak Republic,# of Subscribers Q2 2021,"189,950"
-Slovenia,# of Subscribers Q2 2021,"92,599"
-South Africa,# of Subscribers Q2 2021,"349,977"
-South Korea,# of Subscribers Q2 2021,"4,156,632"
-Spain,# of Subscribers Q2 2021,"4,775,895"
-Sweden,# of Subscribers Q2 2021,"1,718,057"
-Switzerland,# of Subscribers Q2 2021,"1,432,631"
-Turkey,# of Subscribers Q2 2021,"3,089,928"
-UAE,# of Subscribers Q2 2021,"427,186"
-United Kingdom,# of Subscribers Q2 2021,"12,752,006"
-United States,# of Subscribers Q2 2021,"67,278,433"
-Vietnam,# of Subscribers Q2 2021,"328,155"
-Argentina ,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
-Australia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
-Austria,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Belgium,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Brazil,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
-Bulgaria,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Canada,Average Monthly Revenue per Paying Membership - Q2 2021 ($),14.54
-Chile,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
-Colombia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
-Costa Rica,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
-Croatia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Cyprus,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Czech Republic,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Denmark,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Estonia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Finland ,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-France,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Germany,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Greece,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Hungary,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-India,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
-Indonesia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
-Ireland,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Italy,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Japan,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
-Latvia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Lithuania,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Luxembourg,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Malta,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Mexico,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
-Netherlands,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-New Zealand,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
-Norway,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Poland,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Portugal,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Romania,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Russia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Singapore,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
-Slovak Republic,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Slovenia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-South Africa,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-South Korea,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
-Spain,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Sweden,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Switzerland,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-Turkey,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-UAE,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-United Kingdom,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
-United States,Average Monthly Revenue per Paying Membership - Q2 2021 ($),14.54
-Vietnam,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
-Argentina ,Q2 2021 Revenue $ ,"114,058,849"
-Australia,Q2 2021 Revenue $ ,"187,180,896"
-Austria,Q2 2021 Revenue $ ,"32,531,987"
-Belgium,Q2 2021 Revenue $ ,"57,494,153"
-Brazil,Q2 2021 Revenue $ ,"409,980,005"
-Bulgaria,Q2 2021 Revenue $ ,"6,019,375"
-Canada,Q2 2021 Revenue $ ,"290,952,526"
-Chile,Q2 2021 Revenue $ ,"21,290,445"
-Colombia,Q2 2021 Revenue $ ,"61,455,382"
-Costa Rica,Q2 2021 Revenue $ ,"6,699,984"
-Croatia,Q2 2021 Revenue $ ,"4,032,210"
-Cyprus,Q2 2021 Revenue $ ,"1,725,835"
-Czech Republic,Q2 2021 Revenue $ ,"15,978,705"
-Denmark,Q2 2021 Revenue $ ,"32,209,971"
-Estonia,Q2 2021 Revenue $ ,"1,840,189"
-Finland ,Q2 2021 Revenue $ ,"25,797,723"
-France,Q2 2021 Revenue $ ,"292,712,113"
-Germany,Q2 2021 Revenue $ ,"374,160,994"
-Greece,Q2 2021 Revenue $ ,"18,116,004"
-Hungary,Q2 2021 Revenue $ ,"11,859,853"
-India,Q2 2021 Revenue $ ,"147,026,641"
-Indonesia,Q2 2021 Revenue $ ,"25,790,741"
-Ireland,Q2 2021 Revenue $ ,"18,525,364"
-Italy,Q2 2021 Revenue $ ,"129,019,484"
-Japan,Q2 2021 Revenue $ ,"151,710,240"
-Latvia,Q2 2021 Revenue $ ,"1,988,919"
-Lithuania,Q2 2021 Revenue $ ,"4,841,809"
-Luxembourg,Q2 2021 Revenue $ ,"2,929,710"
-Malta,Q2 2021 Revenue $ ,"1,055,495"
-Mexico,Q2 2021 Revenue $ ,"187,793,355"
-Netherlands,Q2 2021 Revenue $ ,"96,464,346"
-New Zealand,Q2 2021 Revenue $ ,"38,327,772"
-Norway,Q2 2021 Revenue $ ,"68,846,373"
-Poland,Q2 2021 Revenue $ ,"60,805,862"
-Portugal,Q2 2021 Revenue $ ,"24,284,811"
-Romania,Q2 2021 Revenue $ ,"16,276,166"
-Russia,Q2 2021 Revenue $ ,"6,485,140"
-Singapore,Q2 2021 Revenue $ ,"13,546,875"
-Slovak Republic,Q2 2021 Revenue $ ,"6,644,464"
-Slovenia,Q2 2021 Revenue $ ,"3,239,097"
-South Africa,Q2 2021 Revenue $ ,"12,242,202"
-South Korea,Q2 2021 Revenue $ ,"121,456,791"
-Spain,Q2 2021 Revenue $ ,"167,060,813"
-Sweden,Q2 2021 Revenue $ ,"60,097,638"
-Switzerland,Q2 2021 Revenue $ ,"50,113,445"
-Turkey,Q2 2021 Revenue $ ,"108,085,669"
-UAE,Q2 2021 Revenue $ ,"14,942,949"
-United Kingdom,Q2 2021 Revenue $ ,"446,065,167"
-United States,Q2 2021 Revenue $ ,"2,934,685,232"
-Vietnam,Q2 2021 Revenue $ ,"9,588,694"
-Argentina ,# of Subscribers Q3 2021 (Estimate),"5,154,101"
-Australia,# of Subscribers Q3 2021 (Estimate),"6,513,101"
-Austria,# of Subscribers Q3 2021 (Estimate),"945,578"
-Belgium,# of Subscribers Q3 2021 (Estimate),"1,671,131"
-Brazil,# of Subscribers Q3 2021 (Estimate),"18,526,213"
-Bulgaria,# of Subscribers Q3 2021 (Estimate),"174,960"
-Canada,# of Subscribers Q3 2021 (Estimate),"6,781,769"
-Chile,# of Subscribers Q3 2021 (Estimate),"962,075"
-Colombia,# of Subscribers Q3 2021 (Estimate),"2,777,051"
-Costa Rica,# of Subscribers Q3 2021 (Estimate),"302,759"
-Croatia,# of Subscribers Q3 2021 (Estimate),"117,201"
-Cyprus,# of Subscribers Q3 2021 (Estimate),"50,163"
-Czech Republic,# of Subscribers Q3 2021 (Estimate),"464,439"
-Denmark,# of Subscribers Q3 2021 (Estimate),"936,218"
-Estonia,# of Subscribers Q3 2021 (Estimate),"53,487"
-Finland ,# of Subscribers Q3 2021 (Estimate),"749,839"
-France,# of Subscribers Q3 2021 (Estimate),"8,507,998"
-Germany,# of Subscribers Q3 2021 (Estimate),"10,875,399"
-Greece,# of Subscribers Q3 2021 (Estimate),"526,561"
-Hungary,# of Subscribers Q3 2021 (Estimate),"344,720"
-India,# of Subscribers Q3 2021 (Estimate),"5,115,903"
-Indonesia,# of Subscribers Q3 2021 (Estimate),"897,408"
-Ireland,# of Subscribers Q3 2021 (Estimate),"538,460"
-Italy,# of Subscribers Q3 2021 (Estimate),"3,750,093"
-Japan,# of Subscribers Q3 2021 (Estimate),"5,278,873"
-Latvia,# of Subscribers Q3 2021 (Estimate),"57,810"
-Lithuania,# of Subscribers Q3 2021 (Estimate),"140,732"
-Luxembourg,# of Subscribers Q3 2021 (Estimate),"85,155"
-Malta,# of Subscribers Q3 2021 (Estimate),"30,679"
-Mexico,# of Subscribers Q3 2021 (Estimate),"8,486,023"
-Netherlands,# of Subscribers Q3 2021 (Estimate),"2,803,842"
-New Zealand,# of Subscribers Q3 2021 (Estimate),"1,333,644"
-Norway,# of Subscribers Q3 2021 (Estimate),"2,001,095"
-Poland,# of Subscribers Q3 2021 (Estimate),"1,767,389"
-Portugal,# of Subscribers Q3 2021 (Estimate),"705,865"
-Romania,# of Subscribers Q3 2021 (Estimate),"473,085"
-Russia,# of Subscribers Q3 2021 (Estimate),"188,498"
-Singapore,# of Subscribers Q3 2021 (Estimate),"471,374"
-Slovak Republic,# of Subscribers Q3 2021 (Estimate),"193,129"
-Slovenia,# of Subscribers Q3 2021 (Estimate),"94,148"
-South Africa,# of Subscribers Q3 2021 (Estimate),"355,833"
-South Korea,# of Subscribers Q3 2021 (Estimate),"4,226,181"
-Spain,# of Subscribers Q3 2021 (Estimate),"4,855,805"
-Sweden,# of Subscribers Q3 2021 (Estimate),"1,746,804"
-Switzerland,# of Subscribers Q3 2021 (Estimate),"1,456,602"
-Turkey,# of Subscribers Q3 2021 (Estimate),"3,141,628"
-UAE,# of Subscribers Q3 2021 (Estimate),"434,333"
-United Kingdom,# of Subscribers Q3 2021 (Estimate),"12,965,372"
-United States,# of Subscribers Q3 2021 (Estimate),"68,404,135"
-Vietnam,# of Subscribers Q3 2021 (Estimate),"333,646"
-Argentina ,Q3 2021 Revenue $ (Estimate) ,"115,967,282"
-Australia,Q3 2021 Revenue $ (Estimate) ,"190,312,806"
-Austria,Q3 2021 Revenue $ (Estimate) ,"33,076,312"
-Belgium,Q3 2021 Revenue $ (Estimate) ,"58,456,146"
-Brazil,Q3 2021 Revenue $ (Estimate) ,"416,839,790"
-Bulgaria,Q3 2021 Revenue $ (Estimate) ,"6,120,091"
-Canada,Q3 2021 Revenue $ (Estimate) ,"295,820,743"
-Chile,Q3 2021 Revenue $ (Estimate) ,"21,646,677"
-Colombia,Q3 2021 Revenue $ (Estimate) ,"62,483,654"
-Costa Rica,Q3 2021 Revenue $ (Estimate) ,"6,812,088"
-Croatia,Q3 2021 Revenue $ (Estimate) ,"4,099,677"
-Cyprus,Q3 2021 Revenue $ (Estimate) ,"1,754,712"
-Czech Republic,Q3 2021 Revenue $ (Estimate) ,"16,246,061"
-Denmark,Q3 2021 Revenue $ (Estimate) ,"32,748,909"
-Estonia,Q3 2021 Revenue $ (Estimate) ,"1,870,979"
-Finland ,Q3 2021 Revenue $ (Estimate) ,"26,229,371"
-France,Q3 2021 Revenue $ (Estimate) ,"297,609,772"
-Germany,Q3 2021 Revenue $ (Estimate) ,"380,421,456"
-Greece,Q3 2021 Revenue $ (Estimate) ,"18,419,121"
-Hungary,Q3 2021 Revenue $ (Estimate) ,"12,058,292"
-India,Q3 2021 Revenue $ (Estimate) ,"149,486,691"
-Indonesia,Q3 2021 Revenue $ (Estimate) ,"26,222,271"
-Ireland,Q3 2021 Revenue $ (Estimate) ,"18,835,330"
-Italy,Q3 2021 Revenue $ (Estimate) ,"131,178,238"
-Japan,Q3 2021 Revenue $ (Estimate) ,"154,248,656"
-Latvia,Q3 2021 Revenue $ (Estimate) ,"2,022,198"
-Lithuania,Q3 2021 Revenue $ (Estimate) ,"4,922,822"
-Luxembourg,Q3 2021 Revenue $ (Estimate) ,"2,978,730"
-Malta,Q3 2021 Revenue $ (Estimate) ,"1,073,156"
-Mexico,Q3 2021 Revenue $ (Estimate) ,"190,935,514"
-Netherlands,Q3 2021 Revenue $ (Estimate) ,"98,078,387"
-New Zealand,Q3 2021 Revenue $ (Estimate) ,"38,969,072"
-Norway,Q3 2021 Revenue $ (Estimate) ,"69,998,310"
-Poland,Q3 2021 Revenue $ (Estimate) ,"61,823,266"
-Portugal,Q3 2021 Revenue $ (Estimate) ,"24,691,145"
-Romania,Q3 2021 Revenue $ (Estimate) ,"16,548,499"
-Russia,Q3 2021 Revenue $ (Estimate) ,"6,593,649"
-Singapore,Q3 2021 Revenue $ (Estimate) ,"13,773,541"
-Slovak Republic,Q3 2021 Revenue $ (Estimate) ,"6,755,639"
-Slovenia,Q3 2021 Revenue $ (Estimate) ,"3,293,294"
-South Africa,Q3 2021 Revenue $ (Estimate) ,"12,447,039"
-South Korea,Q3 2021 Revenue $ (Estimate) ,"123,489,006"
-Spain,Q3 2021 Revenue $ (Estimate) ,"169,856,074"
-Sweden,Q3 2021 Revenue $ (Estimate) ,"61,103,192"
-Switzerland,Q3 2021 Revenue $ (Estimate) ,"50,951,943"
-Turkey,Q3 2021 Revenue $ (Estimate) ,"109,894,158"
-UAE,Q3 2021 Revenue $ (Estimate) ,"15,192,975"
-United Kingdom,Q3 2021 Revenue $ (Estimate) ,"453,528,729"
-United States,Q3 2021 Revenue $ (Estimate) ,"2,983,788,385"
-Vietnam,Q3 2021 Revenue $ (Estimate) ,"9,749,132"
-Argentina ,# of Subscribers Q4 2021 (Estimate),"5,240,340"
-Australia,# of Subscribers Q4 2021 (Estimate),"6,622,078"
-Austria,# of Subscribers Q4 2021 (Estimate),"961,399"
-Belgium,# of Subscribers Q4 2021 (Estimate),"1,699,092"
-Brazil,# of Subscribers Q4 2021 (Estimate),"18,836,193"
-Bulgaria,# of Subscribers Q4 2021 (Estimate),"177,887"
-Canada,# of Subscribers Q4 2021 (Estimate),"6,895,241"
-Chile,# of Subscribers Q4 2021 (Estimate),"978,172"
-Colombia,# of Subscribers Q4 2021 (Estimate),"2,823,517"
-Costa Rica,# of Subscribers Q4 2021 (Estimate),"307,825"
-Croatia,# of Subscribers Q4 2021 (Estimate),"119,162"
-Cyprus,# of Subscribers Q4 2021 (Estimate),"51,003"
-Czech Republic,# of Subscribers Q4 2021 (Estimate),"472,210"
-Denmark,# of Subscribers Q4 2021 (Estimate),"951,883"
-Estonia,# of Subscribers Q4 2021 (Estimate),"54,382"
-Finland ,# of Subscribers Q4 2021 (Estimate),"762,385"
-France,# of Subscribers Q4 2021 (Estimate),"8,650,354"
-Germany,# of Subscribers Q4 2021 (Estimate),"11,057,366"
-Greece,# of Subscribers Q4 2021 (Estimate),"535,372"
-Hungary,# of Subscribers Q4 2021 (Estimate),"350,487"
-India,# of Subscribers Q4 2021 (Estimate),"5,201,502"
-Indonesia,# of Subscribers Q4 2021 (Estimate),"912,424"
-Ireland,# of Subscribers Q4 2021 (Estimate),"547,469"
-Italy,# of Subscribers Q4 2021 (Estimate),"3,812,839"
-Japan,# of Subscribers Q4 2021 (Estimate),"5,367,199"
-Latvia,# of Subscribers Q4 2021 (Estimate),"58,777"
-Lithuania,# of Subscribers Q4 2021 (Estimate),"143,087"
-Luxembourg,# of Subscribers Q4 2021 (Estimate),"86,580"
-Malta,# of Subscribers Q4 2021 (Estimate),"31,192"
-Mexico,# of Subscribers Q4 2021 (Estimate),"8,628,011"
-Netherlands,# of Subscribers Q4 2021 (Estimate),"2,850,756"
-New Zealand,# of Subscribers Q4 2021 (Estimate),"1,355,958"
-Norway,# of Subscribers Q4 2021 (Estimate),"2,034,578"
-Poland,# of Subscribers Q4 2021 (Estimate),"1,796,961"
-Portugal,# of Subscribers Q4 2021 (Estimate),"717,675"
-Romania,# of Subscribers Q4 2021 (Estimate),"481,000"
-Russia,# of Subscribers Q4 2021 (Estimate),"191,652"
-Singapore,# of Subscribers Q4 2021 (Estimate),"479,261"
-Slovak Republic,# of Subscribers Q4 2021 (Estimate),"196,360"
-Slovenia,# of Subscribers Q4 2021 (Estimate),"95,723"
-South Africa,# of Subscribers Q4 2021 (Estimate),"361,787"
-South Korea,# of Subscribers Q4 2021 (Estimate),"4,296,893"
-Spain,# of Subscribers Q4 2021 (Estimate),"4,937,053"
-Sweden,# of Subscribers Q4 2021 (Estimate),"1,776,031"
-Switzerland,# of Subscribers Q4 2021 (Estimate),"1,480,974"
-Turkey,# of Subscribers Q4 2021 (Estimate),"3,194,194"
-UAE,# of Subscribers Q4 2021 (Estimate),"441,600"
-United Kingdom,# of Subscribers Q4 2021 (Estimate),"13,182,309"
-United States,# of Subscribers Q4 2021 (Estimate),"69,548,673"
-Vietnam,# of Subscribers Q4 2021 (Estimate),"339,228"
-Argentina ,Q4 2021 Revenue $ (Estimate) ,"117,907,646"
-Australia,Q4 2021 Revenue $ (Estimate) ,"193,497,120"
-Austria,Q4 2021 Revenue $ (Estimate) ,"33,629,745"
-Belgium,Q4 2021 Revenue $ (Estimate) ,"59,434,234"
-Brazil,Q4 2021 Revenue $ (Estimate) ,"423,814,354"
-Bulgaria,Q4 2021 Revenue $ (Estimate) ,"6,222,493"
-Canada,Q4 2021 Revenue $ (Estimate) ,"300,770,416"
-Chile,Q4 2021 Revenue $ (Estimate) ,"22,008,869"
-Colombia,Q4 2021 Revenue $ (Estimate) ,"63,529,130"
-Costa Rica,Q4 2021 Revenue $ (Estimate) ,"6,926,068"
-Croatia,Q4 2021 Revenue $ (Estimate) ,"4,168,272"
-Cyprus,Q4 2021 Revenue $ (Estimate) ,"1,784,071"
-Czech Republic,Q4 2021 Revenue $ (Estimate) ,"16,517,890"
-Denmark,Q4 2021 Revenue $ (Estimate) ,"33,296,863"
-Estonia,Q4 2021 Revenue $ (Estimate) ,"1,902,284"
-Finland ,Q4 2021 Revenue $ (Estimate) ,"26,668,240"
-France,Q4 2021 Revenue $ (Estimate) ,"302,589,379"
-Germany,Q4 2021 Revenue $ (Estimate) ,"386,786,668"
-Greece,Q4 2021 Revenue $ (Estimate) ,"18,727,310"
-Hungary,Q4 2021 Revenue $ (Estimate) ,"12,260,051"
-India,Q4 2021 Revenue $ (Estimate) ,"151,987,903"
-Indonesia,Q4 2021 Revenue $ (Estimate) ,"26,661,023"
-Ireland,Q4 2021 Revenue $ (Estimate) ,"19,150,483"
-Italy,Q4 2021 Revenue $ (Estimate) ,"133,373,113"
-Japan,Q4 2021 Revenue $ (Estimate) ,"156,829,544"
-Latvia,Q4 2021 Revenue $ (Estimate) ,"2,056,033"
-Lithuania,Q4 2021 Revenue $ (Estimate) ,"5,005,190"
-Luxembourg,Q4 2021 Revenue $ (Estimate) ,"3,028,570"
-Malta,Q4 2021 Revenue $ (Estimate) ,"1,091,112"
-Mexico,Q4 2021 Revenue $ (Estimate) ,"194,130,247"
-Netherlands,Q4 2021 Revenue $ (Estimate) ,"99,719,435"
-New Zealand,Q4 2021 Revenue $ (Estimate) ,"39,621,102"
-Norway,Q4 2021 Revenue $ (Estimate) ,"71,169,522"
-Poland,Q4 2021 Revenue $ (Estimate) ,"62,857,693"
-Portugal,Q4 2021 Revenue $ (Estimate) ,"25,104,277"
-Romania,Q4 2021 Revenue $ (Estimate) ,"16,825,388"
-Russia,Q4 2021 Revenue $ (Estimate) ,"6,703,974"
-Singapore,Q4 2021 Revenue $ (Estimate) ,"14,004,000"
-Slovak Republic,Q4 2021 Revenue $ (Estimate) ,"6,868,675"
-Slovenia,Q4 2021 Revenue $ (Estimate) ,"3,348,397"
-South Africa,Q4 2021 Revenue $ (Estimate) ,"12,655,303"
-South Korea,Q4 2021 Revenue $ (Estimate) ,"125,555,224"
-Spain,Q4 2021 Revenue $ (Estimate) ,"172,698,106"
-Sweden,Q4 2021 Revenue $ (Estimate) ,"62,125,571"
-Switzerland,Q4 2021 Revenue $ (Estimate) ,"51,804,471"
-Turkey,Q4 2021 Revenue $ (Estimate) ,"111,732,907"
-UAE,Q4 2021 Revenue $ (Estimate) ,"15,447,183"
-United Kingdom,Q4 2021 Revenue $ (Estimate) ,"461,117,172"
-United States,Q4 2021 Revenue $ (Estimate) ,"3,033,713,132"
-Vietnam,Q4 2021 Revenue $ (Estimate) ,"9,912,255"
+Continent,variable,value
+South America,# of Subscribers Q1 2021 ,"4,968,423"
+Oceania,# of Subscribers Q1 2021 ,"6,169,026"
+Europe,# of Subscribers Q1 2021 ,"927,420"
+Europe,# of Subscribers Q1 2021 ,"1,639,040"
+South America,# of Subscribers Q1 2021 ,"17,858,800"
+Europe,# of Subscribers Q1 2021 ,"171,600"
+North America,# of Subscribers Q1 2021 ,"6,709,076"
+South America,# of Subscribers Q1 2021 ,"927,415"
+South America,# of Subscribers Q1 2021 ,"2,677,007"
+North America,# of Subscribers Q1 2021 ,"291,852"
+Europe,# of Subscribers Q1 2021 ,"114,950"
+Europe,# of Subscribers Q1 2021 ,"49,200"
+Europe,# of Subscribers Q1 2021 ,"455,520"
+Europe,# of Subscribers Q1 2021 ,"918,240"
+Europe,# of Subscribers Q1 2021 ,"52,460"
+Europe,# of Subscribers Q1 2021 ,"735,440"
+Europe,# of Subscribers Q1 2021 ,"8,344,620"
+Europe,# of Subscribers Q1 2021 ,"10,666,560"
+Europe,# of Subscribers Q1 2021 ,"516,450"
+Europe,# of Subscribers Q1 2021 ,"338,100"
+Asia,# of Subscribers Q1 2021 ,"4,845,640"
+Asia,# of Subscribers Q1 2021 ,"850,000"
+Europe,# of Subscribers Q1 2021 ,"528,120"
+Europe,# of Subscribers Q1 2021 ,"3,678,080"
+Asia,# of Subscribers Q1 2021 ,"5,000,000"
+Europe,# of Subscribers Q1 2021 ,"56,700"
+Europe,# of Subscribers Q1 2021 ,"138,030"
+Europe,# of Subscribers Q1 2021 ,"83,520"
+Europe,# of Subscribers Q1 2021 ,"30,090"
+North America,# of Subscribers Q1 2021 ,"8,180,311"
+Europe,# of Subscribers Q1 2021 ,"2,750,000"
+Oceania,# of Subscribers Q1 2021 ,"1,263,190"
+Europe,# of Subscribers Q1 2021 ,"1,962,668"
+Europe,# of Subscribers Q1 2021 ,"1,733,450"
+Europe,# of Subscribers Q1 2021 ,"692,310"
+Europe,# of Subscribers Q1 2021 ,"464,000"
+Europe,# of Subscribers Q1 2021 ,"184,878"
+Asia,# of Subscribers Q1 2021 ,"446,472"
+Europe,# of Subscribers Q1 2021 ,"189,420"
+Europe,# of Subscribers Q1 2021 ,"92,340"
+Africa,# of Subscribers Q1 2021 ,"349,000"
+Asia,# of Subscribers Q1 2021 ,"4,002,920"
+Europe,# of Subscribers Q1 2021 ,"4,762,560"
+Europe,# of Subscribers Q1 2021 ,"1,713,260"
+Europe,# of Subscribers Q1 2021 ,"1,428,631"
+Asia,# of Subscribers Q1 2021 ,"3,081,300"
+Asia,# of Subscribers Q1 2021 ,"425,993"
+Europe,# of Subscribers Q1 2021 ,"12,716,400"
+North America,# of Subscribers Q1 2021 ,"67,670,924"
+Asia,# of Subscribers Q1 2021 ,"316,020"
+South America,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
+Oceania,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+South America,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+North America,Average Monthly Revenue per Paying Membership - Q1 2021 ($),14.25
+South America,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
+South America,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
+North America,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Asia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
+Asia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Asia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+North America,Average Monthly Revenue per Paying Membership - Q1 2021 ($),7.39
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Oceania,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Asia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Africa,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Asia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Asia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Asia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+Europe,Average Monthly Revenue per Paying Membership - Q1 2021 ($),11.56
+North America,Average Monthly Revenue per Paying Membership - Q1 2021 ($),14.25
+Asia,Average Monthly Revenue per Paying Membership - Q1 2021 ($),9.71
+South America,Q1 2021 Revenue $ ,"110,149,942"
+Oceania,Q1 2021 Revenue $ ,"179,703,740"
+Europe,Q1 2021 Revenue $ ,"32,162,926"
+Europe,Q1 2021 Revenue $ ,"56,841,907"
+South America,Q1 2021 Revenue $ ,"395,929,594"
+Europe,Q1 2021 Revenue $ ,"5,951,088"
+North America,Q1 2021 Revenue $ ,"286,812,999"
+South America,Q1 2021 Revenue $ ,"20,560,801"
+South America,Q1 2021 Revenue $ ,"59,349,247"
+North America,Q1 2021 Revenue $ ,"6,470,369"
+Europe,Q1 2021 Revenue $ ,"3,986,466"
+Europe,Q1 2021 Revenue $ ,"1,706,256"
+Europe,Q1 2021 Revenue $ ,"15,797,434"
+Europe,Q1 2021 Revenue $ ,"31,844,563"
+Europe,Q1 2021 Revenue $ ,"1,819,313"
+Europe,Q1 2021 Revenue $ ,"25,505,059"
+Europe,Q1 2021 Revenue $ ,"289,391,422"
+Europe,Q1 2021 Revenue $ ,"369,916,301"
+Europe,Q1 2021 Revenue $ ,"17,910,486"
+Europe,Q1 2021 Revenue $ ,"11,725,308"
+Asia,Q1 2021 Revenue $ ,"141,153,493"
+Asia,Q1 2021 Revenue $ ,"24,760,500"
+Europe,Q1 2021 Revenue $ ,"18,315,202"
+Europe,Q1 2021 Revenue $ ,"127,555,814"
+Asia,Q1 2021 Revenue $ ,"145,650,000"
+Europe,Q1 2021 Revenue $ ,"1,966,356"
+Europe,Q1 2021 Revenue $ ,"4,786,880"
+Europe,Q1 2021 Revenue $ ,"2,896,474"
+Europe,Q1 2021 Revenue $ ,"1,043,521"
+North America,Q1 2021 Revenue $ ,"181,357,496"
+Europe,Q1 2021 Revenue $ ,"95,370,000"
+Oceania,Q1 2021 Revenue $ ,"36,796,725"
+Europe,Q1 2021 Revenue $ ,"68,065,341"
+Europe,Q1 2021 Revenue $ ,"60,116,046"
+Europe,Q1 2021 Revenue $ ,"24,009,311"
+Europe,Q1 2021 Revenue $ ,"16,091,520"
+Europe,Q1 2021 Revenue $ ,"6,411,569"
+Asia,Q1 2021 Revenue $ ,"13,005,729"
+Europe,Q1 2021 Revenue $ ,"6,569,086"
+Europe,Q1 2021 Revenue $ ,"3,202,351"
+Africa,Q1 2021 Revenue $ ,"12,103,320"
+Asia,Q1 2021 Revenue $ ,"116,605,060"
+Europe,Q1 2021 Revenue $ ,"165,165,581"
+Europe,Q1 2021 Revenue $ ,"59,415,857"
+Europe,Q1 2021 Revenue $ ,"49,544,930"
+Asia,Q1 2021 Revenue $ ,"106,859,484"
+Asia,Q1 2021 Revenue $ ,"14,773,428"
+Europe,Q1 2021 Revenue $ ,"441,004,752"
+North America,Q1 2021 Revenue $ ,"2,892,932,001"
+Asia,Q1 2021 Revenue $ ,"9,205,663"
+South America,# of Subscribers Q2 2021,"5,069,282"
+Oceania,# of Subscribers Q2 2021,"6,405,917"
+Europe,# of Subscribers Q2 2021,"930,017"
+Europe,# of Subscribers Q2 2021,"1,643,629"
+South America,# of Subscribers Q2 2021,"18,221,334"
+Europe,# of Subscribers Q2 2021,"172,080"
+North America,# of Subscribers Q2 2021,"6,670,163"
+South America,# of Subscribers Q2 2021,"946,242"
+South America,# of Subscribers Q2 2021,"2,731,350"
+North America,# of Subscribers Q2 2021,"297,777"
+Europe,# of Subscribers Q2 2021,"115,272"
+Europe,# of Subscribers Q2 2021,"49,338"
+Europe,# of Subscribers Q2 2021,"456,795"
+Europe,# of Subscribers Q2 2021,"920,811"
+Europe,# of Subscribers Q2 2021,"52,607"
+Europe,# of Subscribers Q2 2021,"737,499"
+Europe,# of Subscribers Q2 2021,"8,367,985"
+Europe,# of Subscribers Q2 2021,"10,696,426"
+Europe,# of Subscribers Q2 2021,"517,896"
+Europe,# of Subscribers Q2 2021,"339,047"
+Asia,# of Subscribers Q2 2021,"5,031,713"
+Asia,# of Subscribers Q2 2021,"882,640"
+Europe,# of Subscribers Q2 2021,"529,599"
+Europe,# of Subscribers Q2 2021,"3,688,379"
+Asia,# of Subscribers Q2 2021,"5,192,000"
+Europe,# of Subscribers Q2 2021,"56,859"
+Europe,# of Subscribers Q2 2021,"138,416"
+Europe,# of Subscribers Q2 2021,"83,754"
+Europe,# of Subscribers Q2 2021,"30,174"
+North America,# of Subscribers Q2 2021,"8,346,371"
+Europe,# of Subscribers Q2 2021,"2,757,700"
+Oceania,# of Subscribers Q2 2021,"1,311,696"
+Europe,# of Subscribers Q2 2021,"1,968,164"
+Europe,# of Subscribers Q2 2021,"1,738,304"
+Europe,# of Subscribers Q2 2021,"694,248"
+Europe,# of Subscribers Q2 2021,"465,299"
+Europe,# of Subscribers Q2 2021,"185,396"
+Asia,# of Subscribers Q2 2021,"463,617"
+Europe,# of Subscribers Q2 2021,"189,950"
+Europe,# of Subscribers Q2 2021,"92,599"
+Africa,# of Subscribers Q2 2021,"349,977"
+Asia,# of Subscribers Q2 2021,"4,156,632"
+Europe,# of Subscribers Q2 2021,"4,775,895"
+Europe,# of Subscribers Q2 2021,"1,718,057"
+Europe,# of Subscribers Q2 2021,"1,432,631"
+Asia,# of Subscribers Q2 2021,"3,089,928"
+Asia,# of Subscribers Q2 2021,"427,186"
+Europe,# of Subscribers Q2 2021,"12,752,006"
+North America,# of Subscribers Q2 2021,"67,278,433"
+Asia,# of Subscribers Q2 2021,"328,155"
+South America,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
+Oceania,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+South America,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+North America,Average Monthly Revenue per Paying Membership - Q2 2021 ($),14.54
+South America,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
+South America,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
+North America,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Asia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
+Asia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Asia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+North America,Average Monthly Revenue per Paying Membership - Q2 2021 ($),7.5
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Oceania,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Asia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Africa,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Asia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Asia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Asia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+Europe,Average Monthly Revenue per Paying Membership - Q2 2021 ($),11.66
+North America,Average Monthly Revenue per Paying Membership - Q2 2021 ($),14.54
+Asia,Average Monthly Revenue per Paying Membership - Q2 2021 ($),9.74
+South America,Q2 2021 Revenue $ ,"114,058,849"
+Oceania,Q2 2021 Revenue $ ,"187,180,896"
+Europe,Q2 2021 Revenue $ ,"32,531,987"
+Europe,Q2 2021 Revenue $ ,"57,494,153"
+South America,Q2 2021 Revenue $ ,"409,980,005"
+Europe,Q2 2021 Revenue $ ,"6,019,375"
+North America,Q2 2021 Revenue $ ,"290,952,526"
+South America,Q2 2021 Revenue $ ,"21,290,445"
+South America,Q2 2021 Revenue $ ,"61,455,382"
+North America,Q2 2021 Revenue $ ,"6,699,984"
+Europe,Q2 2021 Revenue $ ,"4,032,210"
+Europe,Q2 2021 Revenue $ ,"1,725,835"
+Europe,Q2 2021 Revenue $ ,"15,978,705"
+Europe,Q2 2021 Revenue $ ,"32,209,971"
+Europe,Q2 2021 Revenue $ ,"1,840,189"
+Europe,Q2 2021 Revenue $ ,"25,797,723"
+Europe,Q2 2021 Revenue $ ,"292,712,113"
+Europe,Q2 2021 Revenue $ ,"374,160,994"
+Europe,Q2 2021 Revenue $ ,"18,116,004"
+Europe,Q2 2021 Revenue $ ,"11,859,853"
+Asia,Q2 2021 Revenue $ ,"147,026,641"
+Asia,Q2 2021 Revenue $ ,"25,790,741"
+Europe,Q2 2021 Revenue $ ,"18,525,364"
+Europe,Q2 2021 Revenue $ ,"129,019,484"
+Asia,Q2 2021 Revenue $ ,"151,710,240"
+Europe,Q2 2021 Revenue $ ,"1,988,919"
+Europe,Q2 2021 Revenue $ ,"4,841,809"
+Europe,Q2 2021 Revenue $ ,"2,929,710"
+Europe,Q2 2021 Revenue $ ,"1,055,495"
+North America,Q2 2021 Revenue $ ,"187,793,355"
+Europe,Q2 2021 Revenue $ ,"96,464,346"
+Oceania,Q2 2021 Revenue $ ,"38,327,772"
+Europe,Q2 2021 Revenue $ ,"68,846,373"
+Europe,Q2 2021 Revenue $ ,"60,805,862"
+Europe,Q2 2021 Revenue $ ,"24,284,811"
+Europe,Q2 2021 Revenue $ ,"16,276,166"
+Europe,Q2 2021 Revenue $ ,"6,485,140"
+Asia,Q2 2021 Revenue $ ,"13,546,875"
+Europe,Q2 2021 Revenue $ ,"6,644,464"
+Europe,Q2 2021 Revenue $ ,"3,239,097"
+Africa,Q2 2021 Revenue $ ,"12,242,202"
+Asia,Q2 2021 Revenue $ ,"121,456,791"
+Europe,Q2 2021 Revenue $ ,"167,060,813"
+Europe,Q2 2021 Revenue $ ,"60,097,638"
+Europe,Q2 2021 Revenue $ ,"50,113,445"
+Asia,Q2 2021 Revenue $ ,"108,085,669"
+Asia,Q2 2021 Revenue $ ,"14,942,949"
+Europe,Q2 2021 Revenue $ ,"446,065,167"
+North America,Q2 2021 Revenue $ ,"2,934,685,232"
+Asia,Q2 2021 Revenue $ ,"9,588,694"
+South America,# of Subscribers Q3 2021 (Estimate),"5,154,101"
+Oceania,# of Subscribers Q3 2021 (Estimate),"6,513,101"
+Europe,# of Subscribers Q3 2021 (Estimate),"945,578"
+Europe,# of Subscribers Q3 2021 (Estimate),"1,671,131"
+South America,# of Subscribers Q3 2021 (Estimate),"18,526,213"
+Europe,# of Subscribers Q3 2021 (Estimate),"174,960"
+North America,# of Subscribers Q3 2021 (Estimate),"6,781,769"
+South America,# of Subscribers Q3 2021 (Estimate),"962,075"
+South America,# of Subscribers Q3 2021 (Estimate),"2,777,051"
+North America,# of Subscribers Q3 2021 (Estimate),"302,759"
+Europe,# of Subscribers Q3 2021 (Estimate),"117,201"
+Europe,# of Subscribers Q3 2021 (Estimate),"50,163"
+Europe,# of Subscribers Q3 2021 (Estimate),"464,439"
+Europe,# of Subscribers Q3 2021 (Estimate),"936,218"
+Europe,# of Subscribers Q3 2021 (Estimate),"53,487"
+Europe,# of Subscribers Q3 2021 (Estimate),"749,839"
+Europe,# of Subscribers Q3 2021 (Estimate),"8,507,998"
+Europe,# of Subscribers Q3 2021 (Estimate),"10,875,399"
+Europe,# of Subscribers Q3 2021 (Estimate),"526,561"
+Europe,# of Subscribers Q3 2021 (Estimate),"344,720"
+Asia,# of Subscribers Q3 2021 (Estimate),"5,115,903"
+Asia,# of Subscribers Q3 2021 (Estimate),"897,408"
+Europe,# of Subscribers Q3 2021 (Estimate),"538,460"
+Europe,# of Subscribers Q3 2021 (Estimate),"3,750,093"
+Asia,# of Subscribers Q3 2021 (Estimate),"5,278,873"
+Europe,# of Subscribers Q3 2021 (Estimate),"57,810"
+Europe,# of Subscribers Q3 2021 (Estimate),"140,732"
+Europe,# of Subscribers Q3 2021 (Estimate),"85,155"
+Europe,# of Subscribers Q3 2021 (Estimate),"30,679"
+North America,# of Subscribers Q3 2021 (Estimate),"8,486,023"
+Europe,# of Subscribers Q3 2021 (Estimate),"2,803,842"
+Oceania,# of Subscribers Q3 2021 (Estimate),"1,333,644"
+Europe,# of Subscribers Q3 2021 (Estimate),"2,001,095"
+Europe,# of Subscribers Q3 2021 (Estimate),"1,767,389"
+Europe,# of Subscribers Q3 2021 (Estimate),"705,865"
+Europe,# of Subscribers Q3 2021 (Estimate),"473,085"
+Europe,# of Subscribers Q3 2021 (Estimate),"188,498"
+Asia,# of Subscribers Q3 2021 (Estimate),"471,374"
+Europe,# of Subscribers Q3 2021 (Estimate),"193,129"
+Europe,# of Subscribers Q3 2021 (Estimate),"94,148"
+Africa,# of Subscribers Q3 2021 (Estimate),"355,833"
+Asia,# of Subscribers Q3 2021 (Estimate),"4,226,181"
+Europe,# of Subscribers Q3 2021 (Estimate),"4,855,805"
+Europe,# of Subscribers Q3 2021 (Estimate),"1,746,804"
+Europe,# of Subscribers Q3 2021 (Estimate),"1,456,602"
+Asia,# of Subscribers Q3 2021 (Estimate),"3,141,628"
+Asia,# of Subscribers Q3 2021 (Estimate),"434,333"
+Europe,# of Subscribers Q3 2021 (Estimate),"12,965,372"
+North America,# of Subscribers Q3 2021 (Estimate),"68,404,135"
+Asia,# of Subscribers Q3 2021 (Estimate),"333,646"
+South America,Q3 2021 Revenue $ (Estimate) ,"115,967,282"
+Oceania,Q3 2021 Revenue $ (Estimate) ,"190,312,806"
+Europe,Q3 2021 Revenue $ (Estimate) ,"33,076,312"
+Europe,Q3 2021 Revenue $ (Estimate) ,"58,456,146"
+South America,Q3 2021 Revenue $ (Estimate) ,"416,839,790"
+Europe,Q3 2021 Revenue $ (Estimate) ,"6,120,091"
+North America,Q3 2021 Revenue $ (Estimate) ,"295,820,743"
+South America,Q3 2021 Revenue $ (Estimate) ,"21,646,677"
+South America,Q3 2021 Revenue $ (Estimate) ,"62,483,654"
+North America,Q3 2021 Revenue $ (Estimate) ,"6,812,088"
+Europe,Q3 2021 Revenue $ (Estimate) ,"4,099,677"
+Europe,Q3 2021 Revenue $ (Estimate) ,"1,754,712"
+Europe,Q3 2021 Revenue $ (Estimate) ,"16,246,061"
+Europe,Q3 2021 Revenue $ (Estimate) ,"32,748,909"
+Europe,Q3 2021 Revenue $ (Estimate) ,"1,870,979"
+Europe,Q3 2021 Revenue $ (Estimate) ,"26,229,371"
+Europe,Q3 2021 Revenue $ (Estimate) ,"297,609,772"
+Europe,Q3 2021 Revenue $ (Estimate) ,"380,421,456"
+Europe,Q3 2021 Revenue $ (Estimate) ,"18,419,121"
+Europe,Q3 2021 Revenue $ (Estimate) ,"12,058,292"
+Asia,Q3 2021 Revenue $ (Estimate) ,"149,486,691"
+Asia,Q3 2021 Revenue $ (Estimate) ,"26,222,271"
+Europe,Q3 2021 Revenue $ (Estimate) ,"18,835,330"
+Europe,Q3 2021 Revenue $ (Estimate) ,"131,178,238"
+Asia,Q3 2021 Revenue $ (Estimate) ,"154,248,656"
+Europe,Q3 2021 Revenue $ (Estimate) ,"2,022,198"
+Europe,Q3 2021 Revenue $ (Estimate) ,"4,922,822"
+Europe,Q3 2021 Revenue $ (Estimate) ,"2,978,730"
+Europe,Q3 2021 Revenue $ (Estimate) ,"1,073,156"
+North America,Q3 2021 Revenue $ (Estimate) ,"190,935,514"
+Europe,Q3 2021 Revenue $ (Estimate) ,"98,078,387"
+Oceania,Q3 2021 Revenue $ (Estimate) ,"38,969,072"
+Europe,Q3 2021 Revenue $ (Estimate) ,"69,998,310"
+Europe,Q3 2021 Revenue $ (Estimate) ,"61,823,266"
+Europe,Q3 2021 Revenue $ (Estimate) ,"24,691,145"
+Europe,Q3 2021 Revenue $ (Estimate) ,"16,548,499"
+Europe,Q3 2021 Revenue $ (Estimate) ,"6,593,649"
+Asia,Q3 2021 Revenue $ (Estimate) ,"13,773,541"
+Europe,Q3 2021 Revenue $ (Estimate) ,"6,755,639"
+Europe,Q3 2021 Revenue $ (Estimate) ,"3,293,294"
+Africa,Q3 2021 Revenue $ (Estimate) ,"12,447,039"
+Asia,Q3 2021 Revenue $ (Estimate) ,"123,489,006"
+Europe,Q3 2021 Revenue $ (Estimate) ,"169,856,074"
+Europe,Q3 2021 Revenue $ (Estimate) ,"61,103,192"
+Europe,Q3 2021 Revenue $ (Estimate) ,"50,951,943"
+Asia,Q3 2021 Revenue $ (Estimate) ,"109,894,158"
+Asia,Q3 2021 Revenue $ (Estimate) ,"15,192,975"
+Europe,Q3 2021 Revenue $ (Estimate) ,"453,528,729"
+North America,Q3 2021 Revenue $ (Estimate) ,"2,983,788,385"
+Asia,Q3 2021 Revenue $ (Estimate) ,"9,749,132"
+South America,# of Subscribers Q4 2021 (Estimate),"5,240,340"
+Oceania,# of Subscribers Q4 2021 (Estimate),"6,622,078"
+Europe,# of Subscribers Q4 2021 (Estimate),"961,399"
+Europe,# of Subscribers Q4 2021 (Estimate),"1,699,092"
+South America,# of Subscribers Q4 2021 (Estimate),"18,836,193"
+Europe,# of Subscribers Q4 2021 (Estimate),"177,887"
+North America,# of Subscribers Q4 2021 (Estimate),"6,895,241"
+South America,# of Subscribers Q4 2021 (Estimate),"978,172"
+South America,# of Subscribers Q4 2021 (Estimate),"2,823,517"
+North America,# of Subscribers Q4 2021 (Estimate),"307,825"
+Europe,# of Subscribers Q4 2021 (Estimate),"119,162"
+Europe,# of Subscribers Q4 2021 (Estimate),"51,003"
+Europe,# of Subscribers Q4 2021 (Estimate),"472,210"
+Europe,# of Subscribers Q4 2021 (Estimate),"951,883"
+Europe,# of Subscribers Q4 2021 (Estimate),"54,382"
+Europe,# of Subscribers Q4 2021 (Estimate),"762,385"
+Europe,# of Subscribers Q4 2021 (Estimate),"8,650,354"
+Europe,# of Subscribers Q4 2021 (Estimate),"11,057,366"
+Europe,# of Subscribers Q4 2021 (Estimate),"535,372"
+Europe,# of Subscribers Q4 2021 (Estimate),"350,487"
+Asia,# of Subscribers Q4 2021 (Estimate),"5,201,502"
+Asia,# of Subscribers Q4 2021 (Estimate),"912,424"
+Europe,# of Subscribers Q4 2021 (Estimate),"547,469"
+Europe,# of Subscribers Q4 2021 (Estimate),"3,812,839"
+Asia,# of Subscribers Q4 2021 (Estimate),"5,367,199"
+Europe,# of Subscribers Q4 2021 (Estimate),"58,777"
+Europe,# of Subscribers Q4 2021 (Estimate),"143,087"
+Europe,# of Subscribers Q4 2021 (Estimate),"86,580"
+Europe,# of Subscribers Q4 2021 (Estimate),"31,192"
+North America,# of Subscribers Q4 2021 (Estimate),"8,628,011"
+Europe,# of Subscribers Q4 2021 (Estimate),"2,850,756"
+Oceania,# of Subscribers Q4 2021 (Estimate),"1,355,958"
+Europe,# of Subscribers Q4 2021 (Estimate),"2,034,578"
+Europe,# of Subscribers Q4 2021 (Estimate),"1,796,961"
+Europe,# of Subscribers Q4 2021 (Estimate),"717,675"
+Europe,# of Subscribers Q4 2021 (Estimate),"481,000"
+Europe,# of Subscribers Q4 2021 (Estimate),"191,652"
+Asia,# of Subscribers Q4 2021 (Estimate),"479,261"
+Europe,# of Subscribers Q4 2021 (Estimate),"196,360"
+Europe,# of Subscribers Q4 2021 (Estimate),"95,723"
+Africa,# of Subscribers Q4 2021 (Estimate),"361,787"
+Asia,# of Subscribers Q4 2021 (Estimate),"4,296,893"
+Europe,# of Subscribers Q4 2021 (Estimate),"4,937,053"
+Europe,# of Subscribers Q4 2021 (Estimate),"1,776,031"
+Europe,# of Subscribers Q4 2021 (Estimate),"1,480,974"
+Asia,# of Subscribers Q4 2021 (Estimate),"3,194,194"
+Asia,# of Subscribers Q4 2021 (Estimate),"441,600"
+Europe,# of Subscribers Q4 2021 (Estimate),"13,182,309"
+North America,# of Subscribers Q4 2021 (Estimate),"69,548,673"
+Asia,# of Subscribers Q4 2021 (Estimate),"339,228"
+South America,Q4 2021 Revenue $ (Estimate) ,"117,907,646"
+Oceania,Q4 2021 Revenue $ (Estimate) ,"193,497,120"
+Europe,Q4 2021 Revenue $ (Estimate) ,"33,629,745"
+Europe,Q4 2021 Revenue $ (Estimate) ,"59,434,234"
+South America,Q4 2021 Revenue $ (Estimate) ,"423,814,354"
+Europe,Q4 2021 Revenue $ (Estimate) ,"6,222,493"
+North America,Q4 2021 Revenue $ (Estimate) ,"300,770,416"
+South America,Q4 2021 Revenue $ (Estimate) ,"22,008,869"
+South America,Q4 2021 Revenue $ (Estimate) ,"63,529,130"
+North America,Q4 2021 Revenue $ (Estimate) ,"6,926,068"
+Europe,Q4 2021 Revenue $ (Estimate) ,"4,168,272"
+Europe,Q4 2021 Revenue $ (Estimate) ,"1,784,071"
+Europe,Q4 2021 Revenue $ (Estimate) ,"16,517,890"
+Europe,Q4 2021 Revenue $ (Estimate) ,"33,296,863"
+Europe,Q4 2021 Revenue $ (Estimate) ,"1,902,284"
+Europe,Q4 2021 Revenue $ (Estimate) ,"26,668,240"
+Europe,Q4 2021 Revenue $ (Estimate) ,"302,589,379"
+Europe,Q4 2021 Revenue $ (Estimate) ,"386,786,668"
+Europe,Q4 2021 Revenue $ (Estimate) ,"18,727,310"
+Europe,Q4 2021 Revenue $ (Estimate) ,"12,260,051"
+Asia,Q4 2021 Revenue $ (Estimate) ,"151,987,903"
+Asia,Q4 2021 Revenue $ (Estimate) ,"26,661,023"
+Europe,Q4 2021 Revenue $ (Estimate) ,"19,150,483"
+Europe,Q4 2021 Revenue $ (Estimate) ,"133,373,113"
+Asia,Q4 2021 Revenue $ (Estimate) ,"156,829,544"
+Europe,Q4 2021 Revenue $ (Estimate) ,"2,056,033"
+Europe,Q4 2021 Revenue $ (Estimate) ,"5,005,190"
+Europe,Q4 2021 Revenue $ (Estimate) ,"3,028,570"
+Europe,Q4 2021 Revenue $ (Estimate) ,"1,091,112"
+North America,Q4 2021 Revenue $ (Estimate) ,"194,130,247"
+Europe,Q4 2021 Revenue $ (Estimate) ,"99,719,435"
+Oceania,Q4 2021 Revenue $ (Estimate) ,"39,621,102"
+Europe,Q4 2021 Revenue $ (Estimate) ,"71,169,522"
+Europe,Q4 2021 Revenue $ (Estimate) ,"62,857,693"
+Europe,Q4 2021 Revenue $ (Estimate) ,"25,104,277"
+Europe,Q4 2021 Revenue $ (Estimate) ,"16,825,388"
+Europe,Q4 2021 Revenue $ (Estimate) ,"6,703,974"
+Asia,Q4 2021 Revenue $ (Estimate) ,"14,004,000"
+Europe,Q4 2021 Revenue $ (Estimate) ,"6,868,675"
+Europe,Q4 2021 Revenue $ (Estimate) ,"3,348,397"
+Africa,Q4 2021 Revenue $ (Estimate) ,"12,655,303"
+Asia,Q4 2021 Revenue $ (Estimate) ,"125,555,224"
+Europe,Q4 2021 Revenue $ (Estimate) ,"172,698,106"
+Europe,Q4 2021 Revenue $ (Estimate) ,"62,125,571"
+Europe,Q4 2021 Revenue $ (Estimate) ,"51,804,471"
+Asia,Q4 2021 Revenue $ (Estimate) ,"111,732,907"
+Asia,Q4 2021 Revenue $ (Estimate) ,"15,447,183"
+Europe,Q4 2021 Revenue $ (Estimate) ,"461,117,172"
+North America,Q4 2021 Revenue $ (Estimate) ,"3,033,713,132"
+Asia,Q4 2021 Revenue $ (Estimate) ,"9,912,255"
