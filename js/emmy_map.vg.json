@@ -1,0 +1,60 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Countries with Most Emmy-Winning TV Shows on Netflix",
+    "width": 600,
+    "height": 425,
+    "layer":[
+    {
+    "data": {
+        "url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/js/ne_110m_admin_0_countries.topojson",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+        },
+    "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "black"},
+    "transform": [
+      {
+        "calculate": "'Data is not available in ' + datum.properties.NAME",
+        "as": "note"
+      }],
+    "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+    "data": {
+      "url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/js/ne_110m_admin_0_countries.topojson",
+      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.NAME",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/data/netflix_data_pt2.csv"
+          },
+          "key": "Country",
+          "fields": ["Emmy Award-winners"]
+        }
+      }
+    ],
+    "projection": {"type": "equirectangular"},
+    "mark": {"type": "geoshape", "stroke": "black"},
+    "encoding": {
+      "color": {
+        "field": "Emmy Award-winners",
+        "type": "quantitative",
+        "title": "Number of Emmy-winners",
+        "legend": {
+                   "direction": "horizontal",
+                   "orient": "bottom-right"
+                  },
+        "scale": {
+            "type": "threshold",
+            "domain": [28, 30, 32],
+            "range": ["#fac8af", "#eb9172", "#ab162a", "#67001f"]
+        }
+      },
+      "tooltip": [
+        {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+        {"field": "Emmy Award-winners", "type": "quantitative", "title": "Emmy-winning Titles"}
+      ]
+    }
+    }]  
+}
