@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  
+   <!-- Import pure.css -->
+   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class = page>
+
+  <div class="pure-g">
+    <div class="pure-u-1-1">
+      <p style="text-align: center;"><img src="data/netflix-logo.png" width="350" height="100" /></p>
+      <h1 style="text-align: center;">Chilling With Statistics</h1>
+      <p style="text-align: center;"> As places are slowly recovering from the surge of COVID-19 with the increasing availability and varieties of vaccines, <br>
+        Netflix, one of the streaming platform giants, continues to keep us entertained with their endless varieties of award-winning films & TV shows.<br>
+        This visualisation takes a closer look at some of Netflix's recent data around the world.</p>
+    </div>
+  </div>
+
+  <!-- 1st section -->
+  <div class="pure-g">
+    <div class="pure-u-1-3">
+      <div class="description description-left">
+        <h3>Academy Awards (Oscar) <br> - celebrating film professionals and excellence</h3>
+        <p>With a history dating back to the <strong>year 1929</strong> where the first Oscar was given, it is the oldest among all academy awards.
+           Among the famous theories of how the award's nickname came to be include one which states that Director of the Academy, Margaret Herrick,
+           took a glance at the statuette and noted that it resembled her Uncle Oscar</p>
+
+        <p>The choropleth map on the right summarizes <strong>each country's Netflix catalog based on the number of Oscar-winning film titles.</strong>
+        Feel free to hover over the marks for more information.</p>
+      </div>
+    </div>
+      <div class="pure-u-2-3">
+        <div id="choropleth_map1" class="vis-container"></div>
+      </div>
+  </div>
+  <!-- end pure grid group -->
+
+  <br></br>
+
+  <!-- 2nd section -->
+  <div class="pure-g">
+    <div class="pure-u-2-3">
+      <div id="choropleth_map2"  class="vis-container"></div>
+    </div>
+    <div class="pure-u-1-3">
+      <div class="description description-right">
+        <h3>Television Academy Awards (Emmy) - celebrating TV professionals and excellence</h3>
+        <p>This award is dedicated to TV shows or programs made either on Daytime or Primetime.
+           The origin of its nickname "Emmy" is a term known as "immy" which was used for the image orthicon tube commonly found in early TV cameras.</p>
+
+        <p>The choropleth map on the left summarizes <strong>each country's Netflix catalog based on the number of Emmy-winning TV Show titles.</strong>
+        Feel free to hover over the marks for more information.</p>
+      </div>
+    </div>
+  </div>
+  <!-- end pure grid group -->
+
+  <div class="pure-g">
+    <div class="pure-u-1-1">
+      <p style="text-align: center;"> How did your country's Netflix library do compared to the rest of the world? To view a larger scope of things, we now take a look at trending genre titles for each continent.
+         This data was taken from <a href="https://flixpatrol.com/">flixpatrol.com</a> for titles trending in weeks 12-37 of the year 2020.
+    </div>
+  </div>
+
+  <!-- 3rd section -->
+  <div class="pure-g">
+    <div class="pure-u-1-5">
+      <div class="description description-left">
+        <h3>Different Place, Different Taste</h3>
+        <p>The stacked bar chart on the right shows the trending title genres for each continent. </p>
+
+        <p>At first glance, we can immediately see that <strong>North America has the most trending titles in the specified genres</strong>.
+        Next up, by a significant difference in terms of trending titles, would be Europe.
+
+      </div>
+    </div>
+    <div class="pure-u-3-5">
+      <div id="stackbar_plot" class="vis-container"></div>
+    </div>
+    <div class="pure-u-1-5">
+      <div class="description description-left">
+        <p><strong>Africa</strong> and <strong>South America</strong> seem to have the <strong>least trending titles for the specified genres</strong>. 
+          This could be due to the respective communities having different tastes in films and shows.</p>
+
+        <p>A notable observation would be that <strong>in Asia, dramas are more favoured</strong>; this is especially true due to the Korean wave taking the world by storm.
+          Hot-topics' of the year 2020 include<br> <strong>'It's Okay to Not Be Okay'</strong>, <strong>'Itaewon Class'</strong> and <strong>'Crash Landing On You'.</strong></p>
+      </div>
+    </div>
+  </div>
+  <!-- end pure grid group -->
+
+<div class="pure-g">
+  <div class="pure-u-1-1">
+    <p style="text-align: center;"> Boosted by the pandemic, Netflix's total subscriptions has grown exponentially especially in the first half of 2020, which was during the outbreak.
+      The chart below summarizes Netflix's subscription growth for each region since 2018.
+      Hovering over the dot marks will unveil the revenue for the specified quarter. </p>
+    <h5 style="text-align: center;">Netflix's Subscriber Figures, by Region (2018 - 2021)</h5>
+  </div>
+</div>
+<div id="area_plot" class="vis-container"></div>
+
+<div class="pure-g">
+  <div class="pure-u-1-1">
+    <p style="text-align: center;"> With the steady increase in subscriptions, there's no doubt that there would also be an increase in revenue. 
+      Although there exists recent statistics which have suggested that a high percentage of people don't pay for Netflix, there seems to be a continual growth in Netflix's total revenue.
+      The trend, by region, can be seen in the chart below.</p>
+    <h5 style="text-align: center;">Netflix's Revenue Growth, by Region (2018 - 2021)</h5>
+  </div>
+</div>
+<div id="line_plot" class="vis-container"></div>
+
+<div class="pure-g">
+    <div class="pure-u-1-1 small-font">
+      <p style="text-align: right;">This visualisation was created by Brandon John (Email: bjoh0007@student.monash.edu)</p>
+    </div>
+</div>
+
+</div>
+<script type="text/javascript">
+    var spec1 = "js/oscars_map.vg.json";
+    var spec2 = "js/emmy_map.vg.json";
+    var spec3 = "js/stack_bar.vg.json";
+    var spec4 = "js/line.vg.json";
+    var spec5 = "js/trellis_area.vg.json";
+
+    vegaEmbed('#choropleth_map1', spec1, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#choropleth_map2', spec2, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#stackbar_plot', spec3, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#line_plot', spec4, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#area_plot', spec5, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+</script>
+</body>
+</html>
