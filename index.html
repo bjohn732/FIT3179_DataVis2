@@ -72,7 +72,7 @@
 
   <div class="pure-g">
     <div class="pure-u-1-1">
-      <p style="text-align: center;"> How did your country's Netflix library do compared to the rest of the world? To view a larger scope of things, we now take a look at trending genre titles for each continent.
+      <p style="text-align: center;"> How did your country's Netflix library do compared to the rest of the world? To view a larger scope of things, we now take a look at trending titles for each continent.
          This data was taken from <a href="https://flixpatrol.com/">flixpatrol.com</a> for titles trending in weeks 12-37 of the year 2020.
     </div>
   </div>
@@ -82,27 +82,34 @@
     <div class="pure-u-1-5">
       <div class="description description-left">
         <h3>Different Place, Different Taste</h3>
-        <p>The stacked bar chart on the right shows the trending title genres for each continent. </p>
+        <p>The scatterplot chart on the right shows that trending titles vary by location. <br>
+          At first glance, we can see that <strong>North America </strong> takes the lead in <strong> producing trending shows and films</strong>; these include <strong>Lucifer</strong>, <strong>Umbrella Academy </strong> 
+          and <strong>Project Power</strong>.</p>
 
-        <p>At first glance, we can immediately see that <strong>North America has the most trending titles in the specified genres</strong>.
-        Next up, by a significant difference in terms of trending titles, would be Europe.
+        <h3>The 'Hallyu' Wave</h3>
+        <p>With the recent K-drama and K-pop craze taking the world by storm, there has been an increase in trending Asian titles.
+          <strong>It's Okay to Not Be Okay</strong> takes the spot as the top-rated drama which trended in the majority of 2020.</p>
+        
 
       </div>
     </div>
-    <div class="pure-u-3-5">
-      <div id="stackbar_plot" class="vis-container"></div>
-    </div>
-    <div class="pure-u-1-5">
-      <div class="description description-left">
-        <p><strong>Africa</strong> and <strong>South America</strong> seem to have the <strong>least trending titles for the specified genres</strong>. 
-          This could be due to the respective communities having different tastes in films and shows.</p>
-
-        <p>A notable observation would be that <strong>in Asia, dramas are more favoured</strong>; this is especially true due to the Korean wave taking the world by storm.
-          Hot-topics' of the year 2020 include<br> <strong>'It's Okay to Not Be Okay'</strong>, <strong>'Itaewon Class'</strong> and <strong>'Crash Landing On You'.</strong></p>
-      </div>
+    <div class="pure-u-4-5">
+      <div id="scatter_plot" class="vis-container"></div>
     </div>
   </div>
   <!-- end pure grid group -->
+
+  <!--
+  <div class="pure-u-1-5">
+    <div class="description description-left">
+      <p><strong>Africa</strong> and <strong>South America</strong> seem to have the <strong>least trending titles for the specified genres</strong>. 
+        This could be due to the respective communities having different tastes in films and shows.</p>
+
+      <p>A notable observation would be that <strong>in Asia, dramas are more favoured</strong>; this is especially true due to the Korean wave taking the world by storm.
+        Hot-topics' of the year 2020 include<br> <strong>'It's Okay to Not Be Okay'</strong>, <strong>'Itaewon Class'</strong> and <strong>'Crash Landing On You'.</strong></p>
+    </div>
+  </div>
+-->
 
 <div class="pure-g">
   <div class="pure-u-1-1">
@@ -134,7 +141,7 @@
 <script type="text/javascript">
     var spec1 = "js/oscars_map.vg.json";
     var spec2 = "js/emmy_map.vg.json";
-    var spec3 = "js/stack_bar.vg.json";
+    var spec3 = "js/interactive_scatter.vg.json";
     var spec4 = "js/line.vg.json";
     var spec5 = "js/trellis_area.vg.json";
 
@@ -146,7 +153,7 @@
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#stackbar_plot', spec3, {"actions": false}).then(function(result) {
+    vegaEmbed('#scatter_plot', spec3, {"actions": false}).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
