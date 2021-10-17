@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  
+   <!-- Import pure.css -->
+   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <!-- CSS file -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- Navigation bar -->
+<div class = "navbar">
+  <a href="#" class="logo"><img src="data/netflix-logo.png" width="160" height="55"/></a>
+  <ul class="nav">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#visualisations">Visualisations</a></li>
+    <li><a href="#sources">Sources</a></li>
+  </ul>
+</div>
+<div class="banner-area" id="home"></div>
+<div class="bg-text">
+    <h1>Chilling With Statistics</h1>
+    <p id="header-cap">A Visualisation by Brandon John</p>
+</div>
+<!-- end Navigation bar part -->
+
+<!-- About part -->
+<div class="about-area" id="about">
+    <div class="about-text-part">
+        <h2 style="text-align: center;">About</h2>
+        <div class= page id= "about-page">
+        <p style="text-align: center;">We have come to a point where places are slowly recovering from the surge of COVID-19 with the increasing varieties and availability of vaccines. <br>
+           <span style="color: red; font-weight: bold;">Netflix</span>, one of the streaming platform giants, continues to keep us entertained with their endless varieties of award-winning films & TV shows.
+           This page takes a closer look at some of Netflix's data from all over the world. Feel free to <strong>hover</strong> over marks for more info.
+        <br><span style="color: gold; font-weight: bold;">Tip: </span> For the best viewing experience, open this visualisation in a maximized browser window with zoom setting: 100%</p>
+        </div>
+    </div>    
+</div>
+<!-- end About part -->
+
+<!-- Visualisations part -->
+<div class="vis-area" id="visualisations">
+    <div class="vis-text-part">
+        <h2 style="text-align: center;">Visualisations</h2>
+        <div class= page id= "vis-page">
+        <div class="pure-g">
+        <div class="pure-u-1-3">
+            <div class="top">
+            <h3>Academy Awards (Oscar) <br> - celebrating film professionals and excellence</h3>
+            <p>With a history dating back to the <strong>year 1929</strong> where the first Oscar was given, it is the <strong>oldest among all academy awards</strong>.
+                A popular theory of how the award's nickname came about would be when Director of the Academy, Margaret Herrick,
+                took a glance at the statuette and said that it resembled her Uncle Oscar.</p>
+            </div>
+        </div>
+            <div class="pure-u-2-3">
+            <div id="choropleth_map1" class="vis-container"></div>
+            </div>
+        </div> 
+        
+        <br></br>
+
+        <div class="pure-g">
+        <div class="pure-u-1-3">
+            <div class="bottom">
+            <h3>Television Academy Awards (Emmy) - celebrating TV professionals and excellence</h3>
+            <p>This award is dedicated to TV shows or programs made either on <strong>Daytime or Primetime</strong>.
+                The origin of its nickname "Emmy" is a term known as "immy" which was used for the image orthicon tube commonly found in early TV cameras.</p>
+            </div>
+        </div>
+        <div class="pure-u-2-3">
+            <div id="choropleth_map2" class="vis-container"></div>
+        </div>
+        </div>
+
+        <div class="pure-g">
+        <div class="pure-u-1-1">
+            <p style="text-align: center;"> How did your country's Netflix library do compared to the rest of the world? To view a larger scope of things, we now take <br> a look at <strong>trending titles for each continent.</strong>
+                This data was taken from <a href="https://flixpatrol.com/">flixpatrol.com</a> for titles trending from around Week 12 till Week 37 of the year 2020. 
+                </p>
+        </div>
+        </div>
+
+        <div class="pure-u-1-1">
+            <div id="scatter_plot" class="vis-container"></div>
+        </div>
+
+        <div class="pure-g">
+        <div class="pure-u-1-2">
+            <div class="description-left">
+            <h3 style="text-align: center;">Different Place, Different Taste</h3>
+            <p style="text-align: center;">The scatterplot chart provides a overview of how trending titles vary by <br> location.
+                At first glance, we can see that <span style="color: #442288; font-weight: bold;">North America</span> takes the lead in <strong> producing trending shows and films</strong>; these include <strong>Lucifer</strong>, <strong>Umbrella Academy </strong> 
+                and <strong>Project Power</strong>.</p>
+            </div>
+        </div>
+        <div class="pure-u-1-2">
+            <div class="description-right">
+            <h3 style="text-align: center;">The 'Hallyu' Wave</h3>
+            <p style="text-align: center;">With the recent K-drama and K-pop craze taking the world by storm, there has been an increase in trending titles from <span style="color: #ffd700; font-weight: bold;">Asia</span>.
+            <strong>It's Okay to Not Be Okay</strong> takes the spot as the <strong>top-rated drama</strong> which trended in the majority of 2020.</p>
+            </div>
+        </div>
+        </div>
+
+        <!-- Donut chart section -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+              <b></b>
+              <p style="text-align: center;"> The following chart provides a better overview of the various tastes native to each continent.
+                 <br> Certain regions lack in trending title genres while others have them all, can you spot them?<br> Hint: Try comparing <strong>North America</strong> and <strong>South America</strong>!
+                 </strong>
+              <h5 style="text-align: center;">Genre Donut Charts, by Continent</h5>
+            </div>
+          </div>
+          <div id="donut_plot" class="vis-container"></div>
+        <!-- end Donut chart section -->
+
+        <!-- Area chart section -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+              <b></b>
+              <p style="text-align: center;"> Boosted by the pandemic, <strong>Netflix's total subscriptions</strong> has also <strong>grown exponentially</strong> especially in the first half of 2020, which was during the outbreak.
+                <br> The chart below summarizes Netflix's subscription growth for each region since 2018.</p>
+              <h5 style="text-align: center;">Netflix's Subscriber Figures, by Region (2018 - 2021)</h5>
+            </div>
+          </div>
+          <div id="area_plot" class="vis-container"></div>
+        <!-- end Area chart section -->
+
+        <!-- Line chart section -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+            <br></br>
+            <h3 style="text-align: center;">Here Comes The Money</h3>
+            <p style="text-align: center;"> With the steady <strong>increase in subscriptions</strong>, there's no doubt that there would also be an <strong>increase in revenue</strong>.
+                Although there exists recent statistics which have suggested that a high percentage of people don't pay for Netflix, there seems to be a continual growth in Netflix's total revenue; 
+                this is especially true in the United States and Canada. 
+            </p>
+            <h5 style="text-align: center;">Netflix's Revenue Growth, by Region (2018 - 2021)</h5>
+            </div>
+        </div>
+        <div id="line_plot" class="vis-container"></div>
+        <!-- end Line chart section -->
+
+        <div id="line_plot" class="vis-container"></div>
+
+        </div>
+    </div>
+</div>  
+<!-- end Visualisations part -->
+
+<!-- Sources part -->
+<div class="sources-area" id="sources">
+    <div class="source-text-part">
+        <h2 style="text-align: center;">Sources</h2>
+        <p style="text-align: center;">A huge thanks to the following sources for making this visualisation possible.</p>
+        <p>Datasets:- <a href="https://github.com/intandeay/Netflix-Analysis/blob/master/NF_all.csv">Netflix Data 1</a>,
+             <a href="https://docs.google.com/spreadsheets/d/1aDZzAi93rJW1zrxLGQZdkVn6Gr5RnqZ4f3Nb1_VxCoc/edit#gid=0">Netflix Data 2</a>,
+             <a href="https://docs.google.com/spreadsheets/d/1GPsUoxM_A0BiGuAAYE5gvE28VOJItCbbf1XyyQbpWCY/edit#gid=0">Netflix Data 3</a>; 
+             PNG logos from <a href="https://www.freepnglogos.com/pics/netflix-logo-png">Netflix PNG Logos</a>; Header photo by <a href="https://www.pexels.com/@cottonbro">cottonbro</a> from Pexels
+    </p> 
+    </div>   
+</div>
+<!-- end Sources part -->
+
+
+
+<script type="text/javascript">
+    var spec1 = "js/oscars_map.vg.json";
+    var spec2 = "js/emmy_map.vg.json";
+    var spec3 = "js/interactive_scatter.vg.json";
+    var spec4 = "js/line.vg.json";
+    var spec5 = "js/trellis_area.vg.json";
+    var spec6 = "js/donut.vg.json";
+
+    vegaEmbed('#choropleth_map1', spec1, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#choropleth_map2', spec2, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#scatter_plot', spec3, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#line_plot', spec4, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#area_plot', spec5, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#donut_plot', spec6, {"actions": false}).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+</script>
+</body>
+</html>
