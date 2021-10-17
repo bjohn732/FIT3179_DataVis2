@@ -4,7 +4,7 @@
   "height": 450,
   "description": "Netflix's Revenue Growth, by Region (2018 - 2021)",
   "data": {"url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/data/netflix_data_pt4.csv"},
-  "mark": {"type": "line", "point": {"filled": true, "size": 65}},
+  "mark": {"type": "line", "size": 4, "point": {"filled": true, "size": 80}},
   "params": [
     {
         "name": "Legend_selection",

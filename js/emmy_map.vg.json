@@ -83,6 +83,32 @@
         {"field": "Emmy Award-winners", "type": "quantitative", "title": "Emmy-winning Titles"}
       ]
     }
+    },
+    {
+      "data": {
+        "values": [
+          {"Country": "Canada", "latitude": 55, "longitude": -105, "Count": 66},
+          {"Country": "Russia", "latitude": 60, "longitude": 95, "Count": 42},
+          {"Country": "Australia", "latitude": -25, "longitude": 134.5, "Count": 54}
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "color": "white",
+        "fontSize": 10, "fontWeight": "bold"
+        },
+      "encoding": {
+        "text": {
+          "field": "Country",
+          "type": "nominal"
+        },
+        "latitude": {"field": "latitude"},
+        "longitude": {"field": "longitude"},
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Count", "type": "quantitative", "title": "Oscar-winning Titles"}
+        ]
+      }
     }],
     "config": {
       "title": {
