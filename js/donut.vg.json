@@ -1,0 +1,124 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"data": {"url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/data/netflix_data_pt1.csv"},
+"params": [
+    {
+        "name": "Continent_selection",
+        "bind": {
+            "input": "select",
+            "options": [
+                null,
+                "Africa",
+                "Asia",
+                "Europe",
+                "North America",
+                "South America"
+                ],
+            "labels":[
+                "Show All",
+                "Africa",
+                "Asia",
+                "Europe",
+                "North America",
+                "South America"
+                ],
+            "name": "Select Continent :"
+        }
+    }],
+"transform": [
+    {"filter": "datum['Genre'] == 'Action' || datum['Genre'] == 'Animated' || datum['Genre'] == 'Comedy' || datum['Genre'] == 'Crime' || datum['Genre'] == 'Drama' || datum['Genre'] == 'Fantasy' || datum['Genre'] == 'Horror' || datum['Genre'] == 'Science Fiction' || datum['Genre'] == 'Thriller'"}
+],
+"hconcat": [
+{
+    "width": 250,
+    "height": 250,
+    "transform":[
+        {"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
+        {"joinaggregate": [
+            {
+                "op": "count",
+                "field": "datum.Genre",
+                "as": "genre_sum"
+            }]
+        },
+        {"calculate": "'Trending: ' + datum['genre_sum']",
+            "as": "genre_text"}
+    ],
+    "layer": [
+    {
+    "mark": {"type": "arc", "stroke": "black", "innerRadius": 75},
+    "params": [
+        {
+            "name": "highlight",
+            "select": {"type": "point", "fields": ["Genre"], "on": "mouseover"},
+            "bind": "legend"
+        }
+    ],
+    "encoding": {
+        "theta": {"aggregate": "count", "field": "Genre", "type": "quantitative"},
+        "order": {"sort": "ascending", "aggregate": "count", "field": "Genre"},
+        "color": {"field": "Genre",
+                  "type": "nominal",
+                  "scale": {"scheme": "category20b"}
+        },
+        "fillOpacity": {
+            "condition": {"param": "highlight", "value": 1},
+            "value": 0.2
+        },
+        "tooltip": [
+            {"field": "Continent", "type": "nominal"},
+            {"field": "Genre", "type": "nominal", "title": "Genre"},
+            {"aggregate": "count", "field": "Genre", "type": "quantitative", "title": "Count of Records"}
+        ]
+    }
+    },
+    {"mark": {"type": "text", "size": 20},
+        "encoding": {
+        "text": {
+            "condition": {
+                "test": {"not": {"param": "Continent_selection"}},
+                "value": "All Regions"
+            },          
+            "field": "Continent",
+            "type": "nominal"}
+        }
+    },
+    {"mark": {"type": "text", "size": 20, "x": 125, "y": 150},
+                "encoding": {
+        "text": {"field": "genre_sum", "type": "nominal"}
+        }
+    }
+    ]
+},
+{   
+    "width": 600,
+    "height": 400,
+    "transform":[{"filter": "Continent_selection == null || datum.Continent == Continent_selection"}],
+    "mark": "bar",
+    "encoding": {
+        "x": {"field": "Continent", "type": "nominal", "axis": {"labelAngle": 0}, "title": null},
+        "y": {"aggregate": "count",
+            "title": "Count of Records"
+        } ,
+                "order": {"sort": "ascending", "aggregate": "count", "field": "Genre"},
+        "color": {
+            "field": "Genre",
+            "type": "nominal"
+        },
+        "fillOpacity": {
+            "condition": {"param": "highlight", "value": 1},
+            "value": 0.2
+        },
+        "tooltip": [
+            {"field": "Continent", "type": "nominal"},
+            {"field": "Genre", "type": "nominal"},
+            {"aggregate": "count", "type": "quantitative", "title": "Number of Trending Titles"}
+        ]  
+    }
+}
+],
+"config": {
+    "legend": {"titleFontSize": 13, "labelFontSize": 13, "symbolType": "circle", "symbolSize": 200, "symbolStrokeWidth": 0.4,
+                "direction": "horizontal", "orient": "none", "legendX": 145, "legendY": 450, "title": null}
+}
+}

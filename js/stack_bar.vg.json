@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 1000,
+    "height": 1000,
+    "title": "Trending Netflix Genres, by Continent",
+    "data": {"url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/data/netflix_data_pt1.csv"},
+    "mark": {"type": "bar"},
+    "transform": [
+        {"filter": "datum['Genre'] == 'Action' || datum['Genre'] == 'Comedy' || datum['Genre'] == 'Drama' || datum['Genre'] == 'Superhero' || datum['Genre'] == 'Crime' || datum['Genre'] == 'Fantasy' || datum['Genre'] == 'Documentary' || datum['Genre'] == 'Horror' || datum['Genre'] == 'Science Fiction'"}
+    ],
+    "encoding": {
+        "x": {"aggregate": "count",
+            "title": "Count of Records"
+      },
+        "y":  {"field": "Continent", "type": "nominal", "axis": {"labelAngle": 0}, "title": null},
+        "color": {
+            "field": "Genre",
+            "type": "nominal",
+            "sort": "-color",
+            "scale": {
+                "range": ["#67001f", "#ab162a", "#cf5246", "#eb9172", "#fac8af", "#feefe6", "#f1f1f1", "#d3d3d3", "#ababab"]
+            }
+        },
+        "tooltip": [
+            {"field": "Genre", "type": "nominal"},
+            {"aggregate": "count", "type": "quantitative", "title": "Number of Trending Titles"}
+          ]  
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 1250,
+  "height": 150,
+  "description": "Netflix's Subscriber Figues, by Region (2018 to Q2 2021)",
+  "data": {"url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/data/netflix_data_pt5.csv"},
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "field": "variable",
+      "axis": {"labelAngle": -40, "labelFontSize": 13},
+      "type": "nominal",
+      "title": null
+    },
+    "y": {
+      "aggregate": "mean",
+      "field": "value",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"labelFontSize": 13}
+    },
+    "color": {
+      "field": "Region",
+      "type": "nominal",
+      "legend": {"orient": "top-left"},
+      "scale": {
+        "domain": ["Asia-Pacific", "Latin America", "Europe, Middle East, and Africa", "United States and Canada"],
+        "range": ["#ffd1ab", "#dfa26f", "#854917", "#522500"]
+      }
+    },
+    "row": {
+      "field": "Region",
+      "sort": {"field": "value", "op": "mean", "order": "ascending"},
+      "type": "nominal",
+      "title": "Total Subscribers"
+    },
+    "tooltip": [
+      {"field": "variable", "type": "nominal", "title": "Quarter"},
+      {"field": "value", "type": "quantitative", "title": "Netflix Subscribers"}
+    ]
+  },
+  "config": {
+    "legend": {"titleFontSize": 13, "labelFontSize": 13, "symbolType": "triangle", "symbolSize": 200, "symbolStrokeWidth": 2.5},
+    "headerRow": {"titleFontSize": 13, "labelFontSize": 0}
+  }
+}

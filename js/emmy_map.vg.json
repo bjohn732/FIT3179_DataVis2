@@ -1,0 +1,92 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Countries with Most Emmy-Winning TV Shows on Netflix",
+    "width": 900,
+    "height": 450,
+    "layer":[
+    {
+    "data": {
+        "url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/js/ne_110m_admin_0_countries.topojson",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+        },
+    "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "black"},
+    "transform": [
+      {
+        "calculate": "'Data is not available in ' + datum.properties.NAME",
+        "as": "note"
+      }],
+    "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+    "data": {
+      "url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/js/ne_110m_admin_0_countries.topojson",
+      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.NAME",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/data/netflix_data_pt2.csv"
+          },
+          "key": "Country",
+          "fields": ["Emmy Award-winners"]
+        }
+      }
+    ],
+    "projection": {"type": "equirectangular"},
+    "params":[
+      {
+      "name": "highlight",
+      "select": {"type": "point", "on": "mouseover"}
+      },
+      {"name": "select", "select": "point"}
+    ],
+    "mark": {"type": "geoshape",
+            "stroke": "black"},
+    "encoding": {
+      "color": {
+        "field": "Emmy Award-winners",
+        "type": "quantitative",
+        "title": null,
+        "legend": {
+                   "direction": "vertical",
+                   "orient": "right"
+                  },
+        "scale": {
+            "type": "threshold",
+            "domain": [28, 30, 32],
+            "range": ["#c7d79d", "#b1d35a", "#92a157", "#657350"]
+        }
+      },
+      "fillOpacity": {
+        "condition": {"param": "select", "value": 1},
+        "value": 0.25
+      },
+      "strokeWidth": {
+        "condition": [
+          {
+            "param": "select",
+            "empty": false,
+            "value": 2.5
+          },
+          {
+            "param": "highlight",
+            "empty": false,
+            "value": 2
+          }
+        ],
+        "value": 0.5
+      },
+      "tooltip": [
+        {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+        {"field": "Emmy Award-winners", "type": "quantitative", "title": "Emmy-winning Titles"}
+      ]
+    }
+    }],
+    "config": {
+      "title": {
+        "fontSize": 16
+      }
+    }
+}

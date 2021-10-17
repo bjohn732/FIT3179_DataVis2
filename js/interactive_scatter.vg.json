@@ -1,0 +1,128 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 1300,
+    "height": 475,
+    "description": "Which Countries Have Trending Films in Their Netflix Libraries?",
+    "data": {
+        "url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/data/netflix_data_pt1.csv"
+    },
+    "params": [
+        {
+            "name": "Continent_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    null,
+                    "Africa",
+                    "Asia",
+                    "Europe",
+                    "North America",
+                    "South America"
+                    ],
+                "labels":[
+                    "Show All",
+                    "Africa",
+                    "Asia",
+                    "Europe",
+                    "North America",
+                    "South America"
+                    ],
+                "name": "Select Continent :"
+            }
+        },
+        {
+            "name": "Rating_Above",
+            "value": 10,
+            "bind": {
+                "input": "range",
+                "min": 10,
+                "max": 90,
+                "step": 5,
+                "name": "IMDb Ratings Above:"
+            }
+        }
+    ],
+    "transform": [
+        {"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
+        {"filter": "datum['IMDb Rating'] >= Rating_Above"},
+        {"filter": "datum['IMDb Rating'] > 0"}
+    ],
+    "encoding": {
+    "x": {
+        "field": "IMDb Rating",
+        "type": "quantitative",
+        "axis": {"tickCount":8, "titleFontSize": 13, "labelFontSize": 13}
+    },
+    "y": {
+        "aggregate": "count",
+        "type": "quantitative",
+        "title": "Trend Count",
+        "axis": {"tickCount":8, "titleFontSize": 13, "labelFontSize": 13}
+    }
+    },
+    "layer":[
+        {
+            "mark": {"type": "circle", "size": 100},
+            "params": [
+                {
+                    "name": "Legend_selection",
+                    "select": {"type": "point", "fields": ["Continent"]},
+                    "bind": "legend"
+                }
+            ],
+            "encoding": {
+                "color": {
+                    "field": "Continent",
+                    "type": "nominal",
+                    "legend": {
+                        "orient": "top-left"
+                    },
+                    "scale": {
+                        "domain": [
+                        "Africa",
+                        "Asia",
+                        "Europe",
+                        "North America",
+                        "South America"
+                    ],
+                    "range": ["#daa520", "#ffd700", "#6CA2EA", "#442288", "#800080"]  
+                    }
+                },
+                "opacity": {
+                    "condition": {"param": "Legend_selection", "value": 1},
+                    "value": 0.1
+                },
+                "tooltip": [
+                    {"field": "Title", "type": "nominal"},
+                    {"field": "Genre", "type": "nominal"},
+                    {"field": "Country", "type": "nominal", "title": "Origin"},
+                    {"field": "IMDb Rating", "type": "quantitative"},
+                    {"aggregate": "count", "type": "quantitative", "title": "Trend Count"
+                    }
+                ]
+            }
+        },
+        {
+            "transform": [
+                {"filter": "(datum['IMDb Rating'] >= 90 && datum['Continent'] == 'Asia') || datum['Title'] == 'The Umbrella Academy' || datum['Title'] == 'Lucifer' || datum['Title'] == 'The Last Dance' || datum['Title'] == 'Project Power'"}
+            ],
+            "mark": {
+                "type": "text",
+                "align": "right",
+                "baseline": "middle",
+                "dx": 20, "dy": -15, "xOffset": -16, "yOffset": 0,
+                "fontSize": 13,
+                "fontStyle": "italic" 
+            },
+            "encoding": {
+                "text": {"field": "Title", "type": "nominal"},
+                "color": {"value": "black"}
+            }
+        }
+    ],
+    "config": {
+        "legend": {"titleFontSize": 13, "labelFontSize": 13}
+    }
+}
+
+   

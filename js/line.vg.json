@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 1275,
+  "height": 450,
+  "description": "Netflix's Revenue Growth, by Region (2018 - 2021)",
+  "data": {"url": "https://raw.githubusercontent.com/bjohn732/FIT3179_DataVis2/main/data/netflix_data_pt4.csv"},
+  "mark": {"type": "line", "point": {"filled": true, "size": 65}},
+  "params": [
+    {
+        "name": "Legend_selection",
+        "select": {"type": "point", "fields": ["Region"], "on": "mouseover"},
+        "bind": "legend"
+    }
+  ],
+  "encoding": {
+    "x": {"field": "variable",
+          "axis": {"labelAngle": -40, "titleFontSize": 13, "labelFontSize": 13},
+          "title": null},
+    "y": {"aggregate":"mean",
+          "field": "value",
+          "type": "quantitative",
+          "title": "Average Revenue ($)",
+          "axis": {"titleFontSize": 13, "labelFontSize": 13}},
+    "color": {"field": "Region", 
+              "type": "nominal",
+              "legend": {"orient": "top-left"},
+              "scale": {
+                  "range": ["#c7d79d", "#b1d35a", "#92a157", "#657350"]
+              }
+            },
+    "opacity": {
+      "condition": {"param": "Legend_selection", "value": 1},
+      "value": 0
+    },
+    "tooltip": [
+      {"field": "variable", "type": "nominal", "title": "Quarter"},
+      {"field": "value", "type": "quantitative", "title": "Netflix Revenue ($)"}
+    ]
+  },
+  "config": {
+    "legend": {"titleFontSize": 13, "labelFontSize": 13, "symbolType": "diamond", "symbolSize": 200, "symbolStrokeWidth": 2.5}
+  }
+}
+
+  
